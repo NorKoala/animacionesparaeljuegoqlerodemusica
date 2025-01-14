@@ -1,0 +1,437 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ExtraFeats
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: PLAYER_START_GUITAR
+    m_Weight: 0
+  - m_Path: PLAYER_START_SINGER
+    m_Weight: 0
+  - m_Path: PlayerArmature
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/bone_guitar_body
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_guitar_string_1
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_guitar_string_1/bone_guitar_string_1_end
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_guitar_string_2
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_guitar_string_2/bone_guitar_string_2_end
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_guitar_string_3
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_guitar_string_3/bone_guitar_string_3_end
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_guitar_string_4
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_guitar_string_4/bone_guitar_string_4_end
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_guitar_string_5
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_guitar_string_5/bone_guitar_string_5_end
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_guitar_string_6
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_guitar_string_6/bone_guitar_string_6_end
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_ik_hand_guitar_l
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_ik_hand_guitar_l/bone_ik_hand_guitar_l_end
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/bone_guitar_body/bone_ik_hand_guitar_r
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/bone_guitar_body/bone_ik_hand_guitar_r/bone_ik_hand_guitar_r_end
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/Bone_IK_Foot_Slave_L
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/Bone_IK_Foot_Slave_L/Bone_IK_Foot_Slave_L_end
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/Bone_IK_Foot_Slave_R
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/Bone_IK_Foot_Slave_R/Bone_IK_Foot_Slave_R_end
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/Bone_Mic_Stand
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/Bone_Mic_Stand/Bone_Mic_Adjust_Height
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/Bone_Mic_Stand/Bone_Mic_Adjust_Height/Bone_Mic_Adjust_Angle
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/Bone_Mic_Stand/Bone_Mic_Adjust_Height/Bone_Mic_Adjust_Angle/Bone_Mic_Microphone
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/Bone_Mic_Stand/Bone_Mic_Adjust_Height/Bone_Mic_Adjust_Angle/Bone_Mic_Microphone/bone_ik_hand_slave_l
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/Bone_Mic_Stand/Bone_Mic_Adjust_Height/Bone_Mic_Adjust_Angle/Bone_Mic_Microphone/bone_ik_hand_slave_l/bone_ik_hand_slave_l_end
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/Bone_Mic_Stand/Bone_Mic_Adjust_Height/Bone_Mic_Adjust_Angle/Bone_Mic_Microphone/bone_ik_hand_slave_r
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/Bone_Mic_Stand/Bone_Mic_Adjust_Height/Bone_Mic_Adjust_Angle/Bone_Mic_Microphone/bone_ik_hand_slave_r/bone_ik_hand_slave_r_end
+    m_Weight: 1
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_01
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_01/Bone_ACC_Head_01_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_02
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_02/Bone_ACC_Head_02_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_03
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_03/Bone_ACC_Head_03_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_04
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_04/Bone_ACC_Head_04_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_05
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_05/Bone_ACC_Head_05_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_06
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_06/Bone_ACC_Head_06_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_07
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_07/Bone_ACC_Head_07_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_08
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_08/Bone_ACC_Head_08_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_09
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_09/Bone_ACC_Head_09_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Legs_01
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Legs_01/Bone_ACC_Legs_01_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Legs_02
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Legs_02/Bone_ACC_Legs_02_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Legs_03
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Legs_03/Bone_ACC_Legs_03_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Legs_04
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Legs_04/Bone_ACC_Legs_04_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Torso_01
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Torso_01/Bone_ACC_Torso_01_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Torso_02
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Torso_02/Bone_ACC_Torso_02_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Torso_03
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Torso_03/Bone_ACC_Torso_03_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Torso_04
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Torso_04/Bone_ACC_Torso_04_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Split_Ass_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Split_Ass_L/Bone_Split_Ass_L_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Split_Ass_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Split_Ass_R/Bone_Split_Ass_R_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Index_Base_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Index_Base_L/Bone_Hand_Index_Mid_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Index_Base_L/Bone_Hand_Index_Mid_L/Bone_Hand_Index_Top_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Index_Base_L/Bone_Hand_Index_Mid_L/Bone_Hand_Index_Top_L/Bone_Hand_Index_Top_L_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Middle_Base_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Middle_Base_L/Bone_Hand_Middle_Mid_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Middle_Base_L/Bone_Hand_Middle_Mid_L/Bone_Hand_Middle_Top_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Middle_Base_L/Bone_Hand_Middle_Mid_L/Bone_Hand_Middle_Top_L/Bone_Hand_Middle_Top_L_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Pinkey_Base_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Pinkey_Base_L/Bone_Hand_Pinkey_Mid_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Pinkey_Base_L/Bone_Hand_Pinkey_Mid_L/Bone_Hand_Pinkey_Top_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Pinkey_Base_L/Bone_Hand_Pinkey_Mid_L/Bone_Hand_Pinkey_Top_L/Bone_Hand_Pinkey_Top_L_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Ring_Base_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Ring_Base_L/Bone_Hand_Ring_Mid_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Ring_Base_L/Bone_Hand_Ring_Mid_L/Bone_Hand_Ring_Top_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Ring_Base_L/Bone_Hand_Ring_Mid_L/Bone_Hand_Ring_Top_L/Bone_Hand_Ring_Top_L_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Thumb_Base_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Thumb_Base_L/Bone_Hand_Thumb_Mid_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Thumb_Base_L/Bone_Hand_Thumb_Mid_L/Bone_Hand_Thumb_Top_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Thumb_Base_L/Bone_Hand_Thumb_Mid_L/Bone_Hand_Thumb_Top_L/Bone_Hand_Thumb_Top_L_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Twist_Wrist_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Twist_Wrist_L/Bone_Twist_Wrist_L_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Twist_Bicep_Mid_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Twist_Bicep_Mid_L/Bone_Twist_Bicep_Mid_L_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Twist_Bicep_Top_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Twist_Bicep_Top_L/Bone_Twist_Bicep_Top_L_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Index_Base_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Index_Base_R/Bone_Hand_Index_Mid_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Index_Base_R/Bone_Hand_Index_Mid_R/Bone_Hand_Index_Top_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Index_Base_R/Bone_Hand_Index_Mid_R/Bone_Hand_Index_Top_R/Bone_Hand_Index_Top_R_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Middle_Base_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Middle_Base_R/Bone_Hand_Middle_Mid_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Middle_Base_R/Bone_Hand_Middle_Mid_R/Bone_Hand_Middle_Top_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Middle_Base_R/Bone_Hand_Middle_Mid_R/Bone_Hand_Middle_Top_R/Bone_Hand_Middle_Top_R_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Pinkey_Base_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Pinkey_Base_R/Bone_Hand_Pinkey_Mid_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Pinkey_Base_R/Bone_Hand_Pinkey_Mid_R/Bone_Hand_Pinkey_Top_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Pinkey_Base_R/Bone_Hand_Pinkey_Mid_R/Bone_Hand_Pinkey_Top_R/Bone_Hand_Pinkey_Top_R_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Ring_Base_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Ring_Base_R/Bone_Hand_Ring_Mid_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Ring_Base_R/Bone_Hand_Ring_Mid_R/Bone_Hand_Ring_Top_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Ring_Base_R/Bone_Hand_Ring_Mid_R/Bone_Hand_Ring_Top_R/Bone_Hand_Ring_Top_R_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Thumb_Base_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Thumb_Base_R/Bone_Hand_Thumb_Mid_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Thumb_Base_R/Bone_Hand_Thumb_Mid_R/Bone_Hand_Thumb_Top_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Thumb_Base_R/Bone_Hand_Thumb_Mid_R/Bone_Hand_Thumb_Top_R/Bone_Hand_Thumb_Top_R_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Twist_Wrist_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Twist_Wrist_R/Bone_Twist_Wrist_R_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Twist_Bicep_Mid_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Twist_Bicep_Mid_R/Bone_Twist_Bicep_Mid_R_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Twist_Bicep_Top_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Twist_Bicep_Top_R/Bone_Twist_Bicep_Top_R_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Brow_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Brow_L/Bone_Brow_L_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Brow_Mid
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Brow_Mid/Bone_Brow_Mid_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Brow_Mid_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Brow_Mid_L/Bone_Brow_Mid_L_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Brow_Mid_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Brow_Mid_R/Bone_Brow_Mid_R_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Brow_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Brow_R/Bone_Brow_R_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Cheek_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Cheek_L/Bone_Cheek_L_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Cheek_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Cheek_R/Bone_Cheek_R_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Cheek_Upper_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Cheek_Upper_L/Bone_Cheek_Upper_L_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Cheek_Upper_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Cheek_Upper_R/Bone_Cheek_Upper_R_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Eye_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Eye_L/Bone_Eye_L_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Eye_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Eye_R/Bone_Eye_R_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Eyelid_Lower_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Eyelid_Lower_L/Bone_Eyelid_Lower_L_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Eyelid_Lower_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Eyelid_Lower_R/Bone_Eyelid_Lower_R_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Eyelid_Upper_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Eyelid_Upper_L/Bone_Eyelid_Upper_L_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Eyelid_Upper_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Eyelid_Upper_R/Bone_Eyelid_Upper_R_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Jaw
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Jaw/Bone_Tongue
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Jaw/Bone_Tongue/Bone_Tongue_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Lower_Corner_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Lower_Corner_L/Bone_Lip_Lower_Corner_L_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Lower_Corner_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Lower_Corner_R/Bone_Lip_Lower_Corner_R_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Lower_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Lower_L/Bone_Lip_Lower_L_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Lower_Mid
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Lower_Mid/Bone_Lip_Lower_Mid_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Lower_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Lower_R/Bone_Lip_Lower_R_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Upper_Corner_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Upper_Corner_L/Bone_Lip_Upper_Corner_L_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Upper_Corner_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Upper_Corner_R/Bone_Lip_Upper_Corner_R_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Upper_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Upper_L/Bone_Lip_Upper_L_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Upper_Mid
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Upper_Mid/Bone_Lip_Upper_Mid_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Upper_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Upper_R/Bone_Lip_Upper_R_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Mouth_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Mouth_L/Bone_Mouth_L_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Mouth_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Mouth_R/Bone_Mouth_R_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Nostrils
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Nostrils/Bone_Nostrils_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_L/Bone_Knee_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_L/Bone_Knee_L/Bone_Ankle_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_L/Bone_Knee_L/Bone_Ankle_L/Bone_Toe_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_L/Bone_Knee_L/Bone_Ankle_L/Bone_Toe_L/Bone_Toe_L_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_L/Bone_Twist_Thigh_L
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_L/Bone_Twist_Thigh_L/Bone_Twist_Thigh_L_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_R/Bone_Knee_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_R/Bone_Knee_R/Bone_Ankle_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_R/Bone_Knee_R/Bone_Ankle_R/Bone_Toe_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_R/Bone_Knee_R/Bone_Ankle_R/Bone_Toe_R/Bone_Toe_R_end
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_R/Bone_Twist_Thigh_R
+    m_Weight: 0
+  - m_Path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_R/Bone_Twist_Thigh_R/Bone_Twist_Thigh_R_end
+    m_Weight: 0
+  - m_Path: Rocker
+    m_Weight: 0
