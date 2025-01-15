@@ -30,6 +30,38 @@ public class PerfExporter : MonoBehaviour
         Debug.Log("Added text: " + text);
     }*/
 	
+	public void AddCheksum (string text){
+					/*using (var FileWriter = new StreamWriter("YOUR_FILE_NAME.txt", false)){
+					FileWriter.WriteLine(text + "_performance = [");
+					}*/
+		
+		//File.AppendAllText(filePath, text + "_performance = [" + "\n");
+		File.WriteAllText(filePath, text + "_performance = [" + "\n");
+		//File.WriteLine(text + " = [");
+	}
+	public void AddEnding (){
+		File.AppendAllText(filePath,"]" + "\n");
+		//File.WriteLine(text + " = [");
+	}
+	
+    public void AddTextFacial(string name,float seconds,string Anim)
+    {
+        // Append text to the file with a new line
+        //File.AppendAllText(filePath, text + "\n");
+		int milliseconds = Mathf.RoundToInt(seconds * 1000);
+		string convertedString = milliseconds.ToString();
+		File.AppendAllText(filePath, "{" + "\n");
+		File.AppendAllText(filePath, "   time = " + convertedString + "\n");
+		File.AppendAllText(filePath, "    scr = Band_PlayFacialAnim" + "\n");
+		File.AppendAllText(filePath, "    params = {" + "\n");
+		File.AppendAllText(filePath, "         name = " + name + "\n");
+		File.AppendAllText(filePath, "         anim = " + Anim + "\n");
+		File.AppendAllText(filePath, "        }" + "\n");
+		File.AppendAllText(filePath, "}," + "\n");
+		Debug.Log("Added FacialAnims: " + System.DateTime.Now);
+    }
+	
+	
     public void AddText(string name,float seconds,string Anim)
     {
         // Append text to the file with a new line

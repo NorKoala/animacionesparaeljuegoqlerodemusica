@@ -2069,9 +2069,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Band: {fileID: 832950981}
-  BuildSingPerformance: 1
-  BuildGuitPerformance: 1
-  BuildBassPerformance: 1
+  checksum: chungusone
+  WritePerformance: 1
   Exporter: {fileID: 787003696}
   SingAnimText: {fileID: 1960907624}
   entries:
@@ -2087,31 +2086,34 @@ MonoBehaviour:
       delay: 0.001
     - PerfAnim: s_adam_ns_dance_joker_075_01
       action: 0
-      delay: 3
-    - PerfAnim: guit_Judita_joker_100
+      delay: 25.843
+    - PerfAnim: guit_Judita_areyou_120
       action: 1
-      delay: 3
+      delay: 25.843
     - PerfAnim: Guit_ChrisVance_Bulls_75
       action: 2
-      delay: 3
+      delay: 25.843
+    - PerfAnim: S_Adam_LowKey_075_01
+      action: 0
+      delay: 72.461
+    - PerfAnim: TheOne01
+      action: 3
+      delay: 72.461
     - PerfAnim: S_Adam_LowKey_075_16
       action: 0
-      delay: 18.529
-    - PerfAnim: sing_jason_nonsing_100
+      delay: 86.768
+    - PerfAnim: S_ExGirlfriend_08
       action: 0
-      delay: 21.556
-    - PerfAnim: S_Adam_LowKey_075_13
-      action: 0
-      delay: 24.214
+      delay: 101.538
     - PerfAnim: guit_greg_notempo_02
       action: 2
-      delay: 183
+      delay: 406.032
     - PerfAnim: guit_greg_notempo_01
       action: 1
-      delay: 183
+      delay: 406.032
     - PerfAnim: sing_greg_notempo
       action: 0
-      delay: 183
+      delay: 406.032
 --- !u!114 &787003696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2124,7 +2126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd04dadfa088bfb4ab3911f78aa8684e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  filePath: F:\UnityGames\GH Animations\Assets\Songs\GoWithTheFlow\GoWithFlowPerf.txt
+  filePath: F:\GitHub\animacionesparaeljuegoqlerodemusica\GH Animations\Assets\Songs\TheOne\TheOnePerf.txt
 --- !u!114 &815546939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3983,7 +3985,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b9e42cfceaa666647946dcd8a4e97578, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f3c4c9c4612b26a42bad1f8f5833668d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
