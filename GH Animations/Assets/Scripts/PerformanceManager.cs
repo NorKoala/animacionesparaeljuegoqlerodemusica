@@ -13,7 +13,7 @@ namespace UnityStandardAssets.Utility
 {
 public class PerformanceManager : MonoBehaviour
 {
-    public BandManager Band;
+    //public BandManager Band;
 	public string checksum;
 	public bool WritePerformance;
 	/*public bool WriteCheckSum;
@@ -21,12 +21,13 @@ public class PerformanceManager : MonoBehaviour
 	public bool BuildGuitPerformance;
 	public bool BuildBassPerformance;
 	public bool BuildFacialPerformance;*/
-	public PerfExporter Exporter;
-	public Text SingAnimText;
+	/*public PerfExporter Exporter;
+	public Text SingAnimText;*/
 		//public Animator [] Band;
     /*public Animator BassAnim;
 	public Animator GuitarAnim;
 	public Animator SingerAnim;*/
+	public PerformanceValues PerfMaster;
 		
 		public enum Action
         {
@@ -34,6 +35,8 @@ public class PerformanceManager : MonoBehaviour
 			AnimateGuitar,
 			AnimateBassist,
 			AnimateFacial,
+			AnimatePlayClip,
+			AnimatePlayIdle,
 			//Activate,
             //Deactivate,
             Call,
@@ -62,9 +65,10 @@ public class PerformanceManager : MonoBehaviour
         
         private void Awake()
         {
+			PerfMaster = GetComponent<PerformanceValues>();
             if(WritePerformance){
 				
-				Exporter.AddCheksum(checksum);
+				PerfMaster.Exporter.AddCheksum(checksum);
 				}
 			foreach (Entry entry in entries.entries)
             {
@@ -82,43 +86,63 @@ public class PerformanceManager : MonoBehaviour
 					case Action.AnimateFacial:
                         StartCoroutine(AnimateFacial(entry));
                         break;
+					case Action.AnimatePlayClip:
+                        StartCoroutine(AnimatePlayClip(entry));
+                        break;
+					case Action.AnimatePlayIdle:
+                        StartCoroutine(AnimatePlayIdle(entry));
+                        break;
                 }
             }
-			if(WritePerformance)Exporter.AddEnding();
+			if(WritePerformance)PerfMaster.Exporter.AddEnding();
         }
 
 
         private IEnumerator AnimateSing(Entry entry)
         {
-            if(WritePerformance)Exporter.AddText("vocalist",entry.delay,entry.PerfAnim);
+            if(WritePerformance)PerfMaster.Exporter.AddText("vocalist",entry.delay,entry.PerfAnim);
 			yield return new WaitForSeconds(entry.delay);
             //entry.target.SetActive(true);
 			//SingerAnim.runtimeAnimatorController = PerfAnim[entry];
-			Band.SingerAnim.Play (entry.PerfAnim, 0, 0f);
-			SingAnimText.text = entry.PerfAnim;
+			PerfMaster.Band.SingerAnim.Play (entry.PerfAnim, 0, 0f);
+			PerfMaster.SingAnimText.text = entry.PerfAnim;
         }
 		
         private IEnumerator AnimateGuitar(Entry entry)
         {
-            if(WritePerformance)Exporter.AddText("guitarist",entry.delay,entry.PerfAnim);
+            if(WritePerformance)PerfMaster.Exporter.AddText("guitarist",entry.delay,entry.PerfAnim);
 			yield return new WaitForSeconds(entry.delay);
             //entry.target.SetActive(true);
-			Band.GuitarAnim.Play (entry.PerfAnim, 0, 0f);
+			PerfMaster.Band.GuitarAnim.Play (entry.PerfAnim, 0, 0f);
         }
 
         private IEnumerator AnimateBassist(Entry entry)
         {
-            if(WritePerformance)Exporter.AddText("bassist",entry.delay,entry.PerfAnim);
+            if(WritePerformance)PerfMaster.Exporter.AddText("bassist",entry.delay,entry.PerfAnim);
 			yield return new WaitForSeconds(entry.delay);
             //entry.target.SetActive(true);
-			Band.BassAnim.Play (entry.PerfAnim, 0, 0f);
+			PerfMaster.Band.BassAnim.Play (entry.PerfAnim, 0, 0f);
         }
         private IEnumerator AnimateFacial(Entry entry)
         {
-            if(WritePerformance)Exporter.AddTextFacial("vocalist",entry.delay,entry.PerfAnim);
+            if(WritePerformance)PerfMaster.Exporter.AddTextFacial("vocalist",entry.delay,entry.PerfAnim);
 			yield return new WaitForSeconds(entry.delay);
             //entry.target.SetActive(true);
-			Band.BassAnim.Play (entry.PerfAnim, 0, 0f);
+			//PerfMaster.Band.BassAnim.Play (entry.PerfAnim, 0, 0f);
+        }
+		private IEnumerator AnimatePlayClip(Entry entry)
+        {
+            if(WritePerformance)PerfMaster.Exporter.AddTextBandClip(checksum,entry.delay,entry.PerfAnim);
+			yield return new WaitForSeconds(entry.delay);
+            //entry.target.SetActive(true);
+			//PerfMaster.Band.BassAnim.Play (entry.PerfAnim, 0, 0f);
+        }
+		private IEnumerator AnimatePlayIdle(Entry entry)
+        {
+            if(WritePerformance)PerfMaster.Exporter.AddTextPlayIdle("vocalist",entry.delay,entry.PerfAnim);
+			yield return new WaitForSeconds(entry.delay);
+            //entry.target.SetActive(true);
+			//PerfMaster.Band.BassAnim.Play (entry.PerfAnim, 0, 0f);
         }
     }
 }

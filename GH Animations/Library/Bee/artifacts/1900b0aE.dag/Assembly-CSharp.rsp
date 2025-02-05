@@ -362,9 +362,11 @@
 "Assets/Scripts/CameraManager.cs"
 "Assets/Scripts/ControlDeCamaraAutomatica.cs"
 "Assets/Scripts/DebugCameraController.cs"
+"Assets/Scripts/FileCopyExample.cs"
 "Assets/Scripts/GHMidReader.cs"
 "Assets/Scripts/PerfExporter.cs"
 "Assets/Scripts/PerformanceManager.cs"
+"Assets/Scripts/PerformanceValues.cs"
 "Assets/Scripts/TimedObjectActivator.cs"
 -langversion:9.0
 /deterministic

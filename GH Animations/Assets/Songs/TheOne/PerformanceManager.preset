@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PerformanceManager
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: e6885181dc20eb24ab9c9bd3cb99c43d, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Band
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: checksum
+    value: chungusone
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: WritePerformance
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Exporter
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: SingAnimText
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.size
+    value: 13
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[0].PerfAnim
+    value: guit_greg_notempo_02
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[0].action
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[0].delay
+    value: 0.001
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[1].PerfAnim
+    value: guit_greg_notempo_01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[1].action
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[1].delay
+    value: 0.001
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[2].PerfAnim
+    value: sing_greg_notempo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[2].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[2].delay
+    value: 0.001
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[3].PerfAnim
+    value: s_adam_ns_dance_joker_075_01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[3].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[3].delay
+    value: 25.843
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[4].PerfAnim
+    value: guit_Judita_areyou_120
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[4].action
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[4].delay
+    value: 25.843
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[5].PerfAnim
+    value: Guit_ChrisVance_Bulls_75
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[5].action
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[5].delay
+    value: 25.843
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[6].PerfAnim
+    value: S_Adam_LowKey_075_01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[6].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[6].delay
+    value: 72.461
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[7].PerfAnim
+    value: TheOne01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[7].action
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[7].delay
+    value: 72.461
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[8].PerfAnim
+    value: S_Adam_LowKey_075_16
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[8].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[8].delay
+    value: 86.768
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[9].PerfAnim
+    value: S_ExGirlfriend_08
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[9].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[9].delay
+    value: 101.538
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[10].PerfAnim
+    value: guit_greg_notempo_02
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[10].action
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[10].delay
+    value: 406.032
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[11].PerfAnim
+    value: guit_greg_notempo_01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[11].action
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[11].delay
+    value: 406.032
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[12].PerfAnim
+    value: sing_greg_notempo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[12].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[12].delay
+    value: 406.032
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

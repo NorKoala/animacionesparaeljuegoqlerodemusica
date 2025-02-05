@@ -1,0 +1,2069 @@
+fileFormatVersion: 2
+guid: 0c9354d14277c9645992c0c4d6f603ce
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: <Root Transform>
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: s_airsplit02
+      takeName: PlayerArmature|PlayerArmatureAction
+      internalID: -5330524968722648665
+      firstFrame: 0
+      lastFrame: 440
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: PLAYER_START_GUITAR
+        weight: 1
+      - path: PLAYER_START_SINGER
+        weight: 1
+      - path: PlayerArmature
+        weight: 1
+      - path: PlayerArmature/Control_Root
+        weight: 1
+      - path: PlayerArmature/Control_Root/bone_guitar_body
+        weight: 1
+      - path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS
+        weight: 1
+      - path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_guitar_string_1
+        weight: 1
+      - path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_guitar_string_1/bone_guitar_string_1_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_guitar_string_2
+        weight: 1
+      - path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_guitar_string_2/bone_guitar_string_2_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_guitar_string_3
+        weight: 1
+      - path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_guitar_string_3/bone_guitar_string_3_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_guitar_string_4
+        weight: 1
+      - path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_guitar_string_4/bone_guitar_string_4_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_guitar_string_5
+        weight: 1
+      - path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_guitar_string_5/bone_guitar_string_5_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_guitar_string_6
+        weight: 1
+      - path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_guitar_string_6/bone_guitar_string_6_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_ik_hand_guitar_l
+        weight: 1
+      - path: PlayerArmature/Control_Root/bone_guitar_body/BONE_GUITAR_FRET_POS/bone_ik_hand_guitar_l/bone_ik_hand_guitar_l_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/bone_guitar_body/bone_ik_hand_guitar_r
+        weight: 1
+      - path: PlayerArmature/Control_Root/bone_guitar_body/bone_ik_hand_guitar_r/bone_ik_hand_guitar_r_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_IK_Foot_Slave_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_IK_Foot_Slave_L/Bone_IK_Foot_Slave_L_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_IK_Foot_Slave_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_IK_Foot_Slave_R/Bone_IK_Foot_Slave_R_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Mic_Stand
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Mic_Stand/Bone_Mic_Adjust_Height
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Mic_Stand/Bone_Mic_Adjust_Height/Bone_Mic_Adjust_Angle
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Mic_Stand/Bone_Mic_Adjust_Height/Bone_Mic_Adjust_Angle/Bone_Mic_Microphone
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Mic_Stand/Bone_Mic_Adjust_Height/Bone_Mic_Adjust_Angle/Bone_Mic_Microphone/bone_ik_hand_slave_l
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Mic_Stand/Bone_Mic_Adjust_Height/Bone_Mic_Adjust_Angle/Bone_Mic_Microphone/bone_ik_hand_slave_l/bone_ik_hand_slave_l_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Mic_Stand/Bone_Mic_Adjust_Height/Bone_Mic_Adjust_Angle/Bone_Mic_Microphone/bone_ik_hand_slave_r
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Mic_Stand/Bone_Mic_Adjust_Height/Bone_Mic_Adjust_Angle/Bone_Mic_Microphone/bone_ik_hand_slave_r/bone_ik_hand_slave_r_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_01
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_01/Bone_ACC_Head_01_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_02
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_02/Bone_ACC_Head_02_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_03
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_03/Bone_ACC_Head_03_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_04
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_04/Bone_ACC_Head_04_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_05
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_05/Bone_ACC_Head_05_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_06
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_06/Bone_ACC_Head_06_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_07
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_07/Bone_ACC_Head_07_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_08
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_08/Bone_ACC_Head_08_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_09
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Head_09/Bone_ACC_Head_09_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Legs_01
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Legs_01/Bone_ACC_Legs_01_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Legs_02
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Legs_02/Bone_ACC_Legs_02_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Legs_03
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Legs_03/Bone_ACC_Legs_03_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Legs_04
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Legs_04/Bone_ACC_Legs_04_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Torso_01
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Torso_01/Bone_ACC_Torso_01_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Torso_02
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Torso_02/Bone_ACC_Torso_02_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Torso_03
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Torso_03/Bone_ACC_Torso_03_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Torso_04
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_ACC_Torso_04/Bone_ACC_Torso_04_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Split_Ass_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Split_Ass_L/Bone_Split_Ass_L_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Split_Ass_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Split_Ass_R/Bone_Split_Ass_R_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Index_Base_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Index_Base_L/Bone_Hand_Index_Mid_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Index_Base_L/Bone_Hand_Index_Mid_L/Bone_Hand_Index_Top_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Index_Base_L/Bone_Hand_Index_Mid_L/Bone_Hand_Index_Top_L/Bone_Hand_Index_Top_L_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Middle_Base_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Middle_Base_L/Bone_Hand_Middle_Mid_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Middle_Base_L/Bone_Hand_Middle_Mid_L/Bone_Hand_Middle_Top_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Middle_Base_L/Bone_Hand_Middle_Mid_L/Bone_Hand_Middle_Top_L/Bone_Hand_Middle_Top_L_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Pinkey_Base_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Pinkey_Base_L/Bone_Hand_Pinkey_Mid_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Pinkey_Base_L/Bone_Hand_Pinkey_Mid_L/Bone_Hand_Pinkey_Top_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Pinkey_Base_L/Bone_Hand_Pinkey_Mid_L/Bone_Hand_Pinkey_Top_L/Bone_Hand_Pinkey_Top_L_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Ring_Base_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Ring_Base_L/Bone_Hand_Ring_Mid_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Ring_Base_L/Bone_Hand_Ring_Mid_L/Bone_Hand_Ring_Top_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Ring_Base_L/Bone_Hand_Ring_Mid_L/Bone_Hand_Ring_Top_L/Bone_Hand_Ring_Top_L_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Thumb_Base_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Thumb_Base_L/Bone_Hand_Thumb_Mid_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Thumb_Base_L/Bone_Hand_Thumb_Mid_L/Bone_Hand_Thumb_Top_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Palm_L/Bone_Hand_Thumb_Base_L/Bone_Hand_Thumb_Mid_L/Bone_Hand_Thumb_Top_L/Bone_Hand_Thumb_Top_L_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Twist_Wrist_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Forearm_L/Bone_Twist_Wrist_L/Bone_Twist_Wrist_L_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Twist_Bicep_Mid_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Twist_Bicep_Mid_L/Bone_Twist_Bicep_Mid_L_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Twist_Bicep_Top_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_L/Bone_Bicep_L/Bone_Twist_Bicep_Top_L/Bone_Twist_Bicep_Top_L_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Index_Base_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Index_Base_R/Bone_Hand_Index_Mid_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Index_Base_R/Bone_Hand_Index_Mid_R/Bone_Hand_Index_Top_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Index_Base_R/Bone_Hand_Index_Mid_R/Bone_Hand_Index_Top_R/Bone_Hand_Index_Top_R_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Middle_Base_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Middle_Base_R/Bone_Hand_Middle_Mid_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Middle_Base_R/Bone_Hand_Middle_Mid_R/Bone_Hand_Middle_Top_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Middle_Base_R/Bone_Hand_Middle_Mid_R/Bone_Hand_Middle_Top_R/Bone_Hand_Middle_Top_R_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Pinkey_Base_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Pinkey_Base_R/Bone_Hand_Pinkey_Mid_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Pinkey_Base_R/Bone_Hand_Pinkey_Mid_R/Bone_Hand_Pinkey_Top_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Pinkey_Base_R/Bone_Hand_Pinkey_Mid_R/Bone_Hand_Pinkey_Top_R/Bone_Hand_Pinkey_Top_R_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Ring_Base_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Ring_Base_R/Bone_Hand_Ring_Mid_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Ring_Base_R/Bone_Hand_Ring_Mid_R/Bone_Hand_Ring_Top_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Ring_Base_R/Bone_Hand_Ring_Mid_R/Bone_Hand_Ring_Top_R/Bone_Hand_Ring_Top_R_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Thumb_Base_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Thumb_Base_R/Bone_Hand_Thumb_Mid_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Thumb_Base_R/Bone_Hand_Thumb_Mid_R/Bone_Hand_Thumb_Top_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Palm_R/Bone_Hand_Thumb_Base_R/Bone_Hand_Thumb_Mid_R/Bone_Hand_Thumb_Top_R/Bone_Hand_Thumb_Top_R_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Twist_Wrist_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Forearm_R/Bone_Twist_Wrist_R/Bone_Twist_Wrist_R_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Twist_Bicep_Mid_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Twist_Bicep_Mid_R/Bone_Twist_Bicep_Mid_R_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Twist_Bicep_Top_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Collar_R/Bone_Bicep_R/Bone_Twist_Bicep_Top_R/Bone_Twist_Bicep_Top_R_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Brow_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Brow_L/Bone_Brow_L_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Brow_Mid
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Brow_Mid/Bone_Brow_Mid_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Brow_Mid_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Brow_Mid_L/Bone_Brow_Mid_L_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Brow_Mid_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Brow_Mid_R/Bone_Brow_Mid_R_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Brow_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Brow_R/Bone_Brow_R_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Cheek_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Cheek_L/Bone_Cheek_L_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Cheek_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Cheek_R/Bone_Cheek_R_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Cheek_Upper_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Cheek_Upper_L/Bone_Cheek_Upper_L_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Cheek_Upper_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Cheek_Upper_R/Bone_Cheek_Upper_R_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Eye_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Eye_L/Bone_Eye_L_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Eye_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Eye_R/Bone_Eye_R_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Eyelid_Lower_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Eyelid_Lower_L/Bone_Eyelid_Lower_L_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Eyelid_Lower_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Eyelid_Lower_R/Bone_Eyelid_Lower_R_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Eyelid_Upper_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Eyelid_Upper_L/Bone_Eyelid_Upper_L_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Eyelid_Upper_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Eyelid_Upper_R/Bone_Eyelid_Upper_R_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Jaw
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Jaw/Bone_Tongue
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Jaw/Bone_Tongue/Bone_Tongue_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Lower_Corner_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Lower_Corner_L/Bone_Lip_Lower_Corner_L_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Lower_Corner_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Lower_Corner_R/Bone_Lip_Lower_Corner_R_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Lower_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Lower_L/Bone_Lip_Lower_L_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Lower_Mid
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Lower_Mid/Bone_Lip_Lower_Mid_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Lower_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Lower_R/Bone_Lip_Lower_R_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Upper_Corner_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Upper_Corner_L/Bone_Lip_Upper_Corner_L_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Upper_Corner_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Upper_Corner_R/Bone_Lip_Upper_Corner_R_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Upper_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Upper_L/Bone_Lip_Upper_L_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Upper_Mid
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Upper_Mid/Bone_Lip_Upper_Mid_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Upper_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Lip_Upper_R/Bone_Lip_Upper_R_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Mouth_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Mouth_L/Bone_Mouth_L_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Mouth_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Mouth_R/Bone_Mouth_R_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Nostrils
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Stomach_Lower/Bone_Stomach_Upper/Bone_Chest/Bone_Neck/Bone_Head/Bone_Nostrils/Bone_Nostrils_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_L/Bone_Knee_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_L/Bone_Knee_L/Bone_Ankle_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_L/Bone_Knee_L/Bone_Ankle_L/Bone_Toe_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_L/Bone_Knee_L/Bone_Ankle_L/Bone_Toe_L/Bone_Toe_L_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_L/Bone_Twist_Thigh_L
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_L/Bone_Twist_Thigh_L/Bone_Twist_Thigh_L_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_R/Bone_Knee_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_R/Bone_Knee_R/Bone_Ankle_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_R/Bone_Knee_R/Bone_Ankle_R/Bone_Toe_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_R/Bone_Knee_R/Bone_Ankle_R/Bone_Toe_R/Bone_Toe_R_end
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_R/Bone_Twist_Thigh_R
+        weight: 1
+      - path: PlayerArmature/Control_Root/Bone_Pelvis/Bone_Thigh_R/Bone_Twist_Thigh_R/Bone_Twist_Thigh_R_end
+        weight: 1
+      - path: Rocker
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Bone_Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Thigh_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Thigh_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Knee_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Knee_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Ankle_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Ankle_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Stomach_Lower
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Stomach_Upper
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Collar_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Collar_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Bicep_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Bicep_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Forearm_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Forearm_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Palm_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Palm_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Toe_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Toe_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Eye_L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Eye_R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Thumb_Base_L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Thumb_Mid_L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Thumb_Top_L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Index_Base_L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Index_Mid_L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Index_Top_L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Middle_Base_L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Middle_Mid_L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Middle_Top_L
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Ring_Base_L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Ring_Mid_L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Ring_Top_L
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Pinkey_Base_L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Pinkey_Mid_L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Pinkey_Top_L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Thumb_Base_R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Thumb_Mid_R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Thumb_Top_R
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Index_Base_R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Index_Mid_R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Index_Top_R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Middle_Base_R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Middle_Mid_R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Middle_Top_R
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Ring_Base_R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Ring_Mid_R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Ring_Top_R
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Pinkey_Base_R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Pinkey_Mid_R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Hand_Pinkey_Top_R
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bone_Chest
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: BaseRocker(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rocker
+      parentName: BaseRocker(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: PlayerArmature
+      parentName: BaseRocker(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Control_Root
+      parentName: PlayerArmature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0.00000016902604, z: 0.00000008473231, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Pelvis
+      parentName: Control_Root
+      position: {x: -0.000000001673989, y: 0.010274871, z: 9.186445e-10}
+      rotation: {x: -0.00000014099817, y: -0.0000002549321, z: 0.0000003735212, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Stomach_Lower
+      parentName: Bone_Pelvis
+      position: {x: -0.0000000011920925, y: 0.0005299139, z: 3.4908496e-11}
+      rotation: {x: -0.043158006, y: -0.000000028716336, z: -0.0000002374005, w: 0.99906826}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Stomach_Upper
+      parentName: Bone_Stomach_Lower
+      position: {x: 5.551115e-17, y: 0.0012894019, z: 2.7940197e-11}
+      rotation: {x: 0.00000021606677, y: -0.0000010410968, z: -1.7230661e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Chest
+      parentName: Bone_Stomach_Upper
+      position: {x: 0.0000000011920923, y: 0.0012894013, z: 8.568194e-10}
+      rotation: {x: 0.043158095, y: 0.000000992274, z: -0.000000058427045, w: 0.99906826}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Bone_Neck
+      parentName: Bone_Chest
+      position: {x: 0.0000000013152792, y: 0.0020667266, z: -2.7284527e-11}
+      rotation: {x: 0.07112118, y: -0.000000034133627, z: -0.00000016546572, w: 0.9974677}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Head
+      parentName: Bone_Neck
+      position: {x: 6.092262e-11, y: 0.0010325618, z: -3.9581213e-10}
+      rotation: {x: -0.09204685, y: -0.00000004479773, z: -0.00000003964049, w: 0.9957547}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: Bone_Jaw
+      parentName: Bone_Head
+      position: {x: -6.6575095e-10, y: 0.00008862083, z: 0.0003438115}
+      rotation: {x: 0.020997874, y: 0.00000047554983, z: -0.00000003958174, w: 0.9997795}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: Bone_Tongue
+      parentName: Bone_Jaw
+      position: {x: 0.00000032309813, y: -0.000013369628, z: 0.0007178037}
+      rotation: {x: -0.0000033155065, y: -0.00000023836822, z: 0.0000002868007, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Tongue_end
+      parentName: Bone_Tongue
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Lip_Lower_Mid
+      parentName: Bone_Head
+      position: {x: 0.00000011436547, y: 0.000018881596, z: 0.0012706665}
+      rotation: {x: 0.020994544, y: 0.00000023125034, z: 0.00000024213628, w: 0.9997796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Lip_Lower_Mid_end
+      parentName: Bone_Lip_Lower_Mid
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Lip_Lower_Corner_L
+      parentName: Bone_Head
+      position: {x: -0.00019194644, y: 0.000041313757, z: 0.0011746186}
+      rotation: {x: 0.020994581, y: 0.00000024049478, z: 0.00000023793206, w: 0.9997796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Lip_Lower_Corner_L_end
+      parentName: Bone_Lip_Lower_Corner_L
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Lip_Lower_Corner_R
+      parentName: Bone_Head
+      position: {x: 0.00019217515, y: 0.00004131507, z: 0.0011746185}
+      rotation: {x: 0.020994546, y: 0.00000024049464, z: 0.00000023793207, w: 0.9997796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Lip_Lower_Corner_R_end
+      parentName: Bone_Lip_Lower_Corner_R
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Lip_Lower_L
+      parentName: Bone_Head
+      position: {x: -0.000093015624, y: 0.000020376843, z: 0.0012426107}
+      rotation: {x: 0.02099451, y: 0.0000002404946, z: 0.00000023793208, w: 0.9997796}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Bone_Lip_Lower_L_end
+      parentName: Bone_Lip_Lower_L
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Lip_Lower_R
+      parentName: Bone_Head
+      position: {x: 0.00009324436, y: 0.000020375708, z: 0.0012426105}
+      rotation: {x: 0.020994619, y: 0.00000024049467, z: 0.00000023793206, w: 0.9997796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Lip_Lower_R_end
+      parentName: Bone_Lip_Lower_R
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Eye_L
+      parentName: Bone_Head
+      position: {x: -0.00032673462, y: 0.00082058116, z: 0.00085490174}
+      rotation: {x: 0.020994581, y: 0.00000021236562, z: 0.0000002466566, w: 0.9997796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Eye_L_end
+      parentName: Bone_Eye_L
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Eye_R
+      parentName: Bone_Head
+      position: {x: 0.0003269626, y: 0.0008205813, z: 0.0008549023}
+      rotation: {x: 0.020994581, y: 0.00000021236565, z: 0.0000002466566, w: 0.9997796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Eye_R_end
+      parentName: Bone_Eye_R
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Eyelid_Upper_L
+      parentName: Bone_Head
+      position: {x: -0.00043755263, y: 0.0008205811, z: 0.00085490174}
+      rotation: {x: 0.020994473, y: 0.00000021329669, z: 0.00000024667625, w: 0.9997796}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Bone_Eyelid_Upper_L_end
+      parentName: Bone_Eyelid_Upper_L
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Eyelid_Upper_R
+      parentName: Bone_Head
+      position: {x: 0.00044685058, y: 0.0008205825, z: 0.0008549021}
+      rotation: {x: 0.020994507, y: -0.000000024177234, z: 0.00000024168943, w: 0.9997796}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: Bone_Eyelid_Upper_R_end
+      parentName: Bone_Eyelid_Upper_R
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Mouth_L
+      parentName: Bone_Head
+      position: {x: -0.00028179662, y: 0.000053104148, z: 0.001106915}
+      rotation: {x: 0.020994544, y: 0.00000021236565, z: 0.0000002466566, w: 0.9997796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Mouth_L_end
+      parentName: Bone_Mouth_L
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Mouth_R
+      parentName: Bone_Head
+      position: {x: 0.00028202528, y: 0.000053104315, z: 0.0011069146}
+      rotation: {x: 0.020994544, y: 0.00000021236565, z: 0.0000002466566, w: 0.9997796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Mouth_R_end
+      parentName: Bone_Mouth_R
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Lip_Upper_Mid
+      parentName: Bone_Head
+      position: {x: 0.00000011433957, y: 0.000088046145, z: 0.0012798135}
+      rotation: {x: 0.020994471, y: 0.0000002312366, z: 0.00000024214057, w: 0.9997796}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Bone_Lip_Upper_Mid_end
+      parentName: Bone_Lip_Upper_Mid
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Brow_L
+      parentName: Bone_Head
+      position: {x: -0.0004771758, y: 0.00096359325, z: 0.0010676165}
+      rotation: {x: 0.020994544, y: 0.00000021236565, z: 0.0000002466566, w: 0.9997796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Brow_L_end
+      parentName: Bone_Brow_L
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Brow_R
+      parentName: Bone_Head
+      position: {x: 0.00047740407, y: 0.00096359226, z: 0.001067616}
+      rotation: {x: 0.020994583, y: 0.00000021236559, z: 0.00000024665667, w: 0.9997796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Brow_R_end
+      parentName: Bone_Brow_R
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Brow_Mid
+      parentName: Bone_Head
+      position: {x: 0.000000114055524, y: 0.0009407993, z: 0.0011941612}
+      rotation: {x: 0.020994581, y: 0.00000023123664, z: 0.00000024214054, w: 0.9997796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Brow_Mid_end
+      parentName: Bone_Brow_Mid
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Brow_Mid_L
+      parentName: Bone_Head
+      position: {x: -0.00024223588, y: 0.00094084867, z: 0.0011696514}
+      rotation: {x: 0.020994581, y: 0.00000024049464, z: 0.00000023793207, w: 0.9997796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Brow_Mid_L_end
+      parentName: Bone_Brow_Mid_L
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Brow_Mid_R
+      parentName: Bone_Head
+      position: {x: 0.00024246394, y: 0.0009408488, z: 0.0011696513}
+      rotation: {x: 0.020994544, y: 0.0000002404947, z: 0.00000023793204, w: 0.9997796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Brow_Mid_R_end
+      parentName: Bone_Brow_Mid_R
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Cheek_L
+      parentName: Bone_Head
+      position: {x: -0.00044250066, y: 0.00007513968, z: 0.00084963255}
+      rotation: {x: 0.020994544, y: 0.00000021236565, z: 0.0000002466566, w: 0.9997796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Cheek_L_end
+      parentName: Bone_Cheek_L
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Cheek_R
+      parentName: Bone_Head
+      position: {x: 0.0004427292, y: 0.000075138756, z: 0.0008496321}
+      rotation: {x: 0.020994544, y: 0.00000021236563, z: 0.0000002466566, w: 0.9997796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Cheek_R_end
+      parentName: Bone_Cheek_R
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Cheek_Upper_L
+      parentName: Bone_Head
+      position: {x: -0.00041344576, y: 0.00049655885, z: 0.0010383246}
+      rotation: {x: 0.020994583, y: 0.00000021236562, z: 0.00000024665667, w: 0.9997796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Cheek_Upper_L_end
+      parentName: Bone_Cheek_Upper_L
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Cheek_Upper_R
+      parentName: Bone_Head
+      position: {x: 0.0004136741, y: 0.0004965603, z: 0.0010383246}
+      rotation: {x: 0.020994581, y: 0.00000021236565, z: 0.0000002466566, w: 0.9997796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Cheek_Upper_R_end
+      parentName: Bone_Cheek_Upper_R
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Eyelid_Lower_L
+      parentName: Bone_Head
+      position: {x: -0.00017847163, y: 0.00082058116, z: 0.0008549017}
+      rotation: {x: 0.02099451, y: 0.00000018458846, z: 0.00000023675808, w: 0.9997796}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Bone_Eyelid_Lower_L_end
+      parentName: Bone_Eyelid_Lower_L
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Eyelid_Lower_R
+      parentName: Bone_Head
+      position: {x: 0.0001877716, y: 0.0008205812, z: 0.0008549023}
+      rotation: {x: 0.02099451, y: 0.00000006175921, z: 0.0000002341788, w: 0.9997796}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Bone_Eyelid_Lower_R_end
+      parentName: Bone_Eyelid_Lower_R
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Lip_Upper_Corner_L
+      parentName: Bone_Head
+      position: {x: -0.00020275368, y: 0.00007824211, z: 0.001187944}
+      rotation: {x: 0.020994581, y: 0.00000024049478, z: 0.00000023793206, w: 0.9997796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Lip_Upper_Corner_L_end
+      parentName: Bone_Lip_Upper_Corner_L
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Lip_Upper_Corner_R
+      parentName: Bone_Head
+      position: {x: 0.00020298228, y: 0.000078243436, z: 0.0011879439}
+      rotation: {x: 0.020994581, y: 0.00000024049464, z: 0.00000023793207, w: 0.9997796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Lip_Upper_Corner_R_end
+      parentName: Bone_Lip_Upper_Corner_R
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Lip_Upper_L
+      parentName: Bone_Head
+      position: {x: -0.00010336564, y: 0.00008581045, z: 0.0012553165}
+      rotation: {x: 0.02099462, y: 0.0000002404946, z: 0.00000023793208, w: 0.9997796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Lip_Upper_L_end
+      parentName: Bone_Lip_Upper_L
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Lip_Upper_R
+      parentName: Bone_Head
+      position: {x: 0.000103594306, y: 0.000085810505, z: 0.0012553167}
+      rotation: {x: 0.020994544, y: 0.00000024049473, z: 0.00000023793204, w: 0.9997796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Lip_Upper_R_end
+      parentName: Bone_Lip_Upper_R
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Nostrils
+      parentName: Bone_Head
+      position: {x: -5.2421384e-10, y: 0.00041746977, z: 0.0011802629}
+      rotation: {x: 0.020994544, y: 0.0000002312409, z: 0.00000024214026, w: 0.9997796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Nostrils_end
+      parentName: Bone_Nostrils
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Collar_L
+      parentName: Bone_Chest
+      position: {x: -0.00021630512, y: 0.0012672544, z: 0.00020087612}
+      rotation: {x: -0.07219551, y: -0.07247413, z: 0.70204127, w: 0.7047506}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Bone_Bicep_L
+      parentName: Bone_Collar_L
+      position: {x: -0.0000000029526017, y: 0.0011925425, z: -4.6224186e-10}
+      rotation: {x: 0.10229483, y: -0.0045708637, z: 0.025518848, w: 0.99441624}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Bone_Forearm_L
+      parentName: Bone_Bicep_L
+      position: {x: 0.000000002196175, y: 0.002496216, z: 4.6566128e-12}
+      rotation: {x: 0.027698198, y: -0.000000067197455, z: 0.00000003416829, w: 0.9996164}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: Bone_Palm_L
+      parentName: Bone_Forearm_L
+      position: {x: 0.0000000020684092, y: 0.0032715413, z: 1.816079e-10}
+      rotation: {x: -0.020320976, y: -0.00007158498, z: -0.00088997313, w: 0.9997931}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Bone_Hand_Index_Base_L
+      parentName: Bone_Palm_L
+      position: {x: 0.000043966764, y: 0.0008289821, z: 0.00029524064}
+      rotation: {x: 0.0000023468167, y: 0.000000014086255, z: -0.00011994201, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Bone_Hand_Index_Mid_L
+      parentName: Bone_Hand_Index_Base_L
+      position: {x: -2.2962922e-10, y: 0.0004621143, z: 9.3132255e-12}
+      rotation: {x: -0.000000003608875, y: 1.1641532e-10, z: -1.7280288e-11, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: Bone_Hand_Index_Top_L
+      parentName: Bone_Hand_Index_Mid_L
+      position: {x: -0.00000000123262, y: 0.000263193, z: 4.6566128e-12}
+      rotation: {x: -3.4924597e-10, y: 3.4924602e-10, z: 0.000000044679837, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Bone_Hand_Index_Top_L_end
+      parentName: Bone_Hand_Index_Top_L
+      position: {x: -0, y: 0.000999999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Hand_Middle_Base_L
+      parentName: Bone_Palm_L
+      position: {x: 0.00006380216, y: 0.00084677193, z: 0.00005292018}
+      rotation: {x: 0.0000023400644, y: 0.000000013853423, z: -0.00011997178, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Bone_Hand_Middle_Mid_L
+      parentName: Bone_Hand_Middle_Base_L
+      position: {x: -0.000000002027018, y: 0.00049144437, z: 1.7462297e-11}
+      rotation: {x: 6.9849193e-10, y: 4.6566126e-10, z: 0.00000004467893, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: Bone_Hand_Middle_Top_L
+      parentName: Bone_Hand_Middle_Mid_L
+      position: {x: -0.0000000015543946, y: 0.00032411088, z: -1.1641532e-12}
+      rotation: {x: -3.4924597e-10, y: 1.92593e-34, z: -0.0000000074742275, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Hand_Middle_Top_L_end
+      parentName: Bone_Hand_Middle_Top_L
+      position: {x: -0, y: 0.000999999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Hand_Ring_Base_L
+      parentName: Bone_Palm_L
+      position: {x: 0.000050383285, y: 0.000814132, z: -0.00019210478}
+      rotation: {x: 0.0000023468165, y: 0.000000013969839, z: -0.000119956894, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Bone_Hand_Ring_Mid_L
+      parentName: Bone_Hand_Ring_Base_L
+      position: {x: -7.928611e-10, y: 0.0004898266, z: 4.6566128e-12}
+      rotation: {x: -0.000000002677552, y: 2.3283062e-10, z: -2.0918378e-11, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Bone_Hand_Ring_Top_L
+      parentName: Bone_Hand_Ring_Mid_L
+      position: {x: -5.013862e-10, y: 0.0002955243, z: -2.3283063e-11}
+      rotation: {x: -4.6566123e-10, y: -1.16415294e-10, z: 0.000000044683468, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Bone_Hand_Ring_Top_L_end
+      parentName: Bone_Hand_Ring_Top_L
+      position: {x: -0, y: 0.000999999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Hand_Pinkey_Base_L
+      parentName: Bone_Palm_L
+      position: {x: -0.0000015264482, y: 0.0007384791, z: -0.0003864603}
+      rotation: {x: 0.0000023284229, y: 0.000000013853423, z: -0.00011997175, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Hand_Pinkey_Mid_L
+      parentName: Bone_Hand_Pinkey_Base_L
+      position: {x: -6.61239e-10, y: 0.0004155488, z: -2.7939677e-11}
+      rotation: {x: 0.000000014551915, y: -1.1641532e-10, z: 0.000000044648004, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Hand_Pinkey_Top_L
+      parentName: Bone_Hand_Pinkey_Mid_L
+      position: {x: -0.0000000020842708, y: 0.00023053221, z: 2.3283063e-11}
+      rotation: {x: 0.00000024272595, y: -0.0000000027939675, z: -5.311449e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Bone_Hand_Pinkey_Top_L_end
+      parentName: Bone_Hand_Pinkey_Top_L
+      position: {x: -0, y: 0.000999999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Hand_Thumb_Base_L
+      parentName: Bone_Palm_L
+      position: {x: -0.00020487695, y: 0.00018622629, z: 0.00022935457}
+      rotation: {x: 0.39440942, y: -0.021287665, z: 0.04974862, w: 0.9173402}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: Bone_Hand_Thumb_Mid_L
+      parentName: Bone_Hand_Thumb_Base_L
+      position: {x: -0.0000000016856938, y: 0.00048144502, z: -0.000000002644956}
+      rotation: {x: -0.0000025890768, y: 0.00000068731606, z: 0.000087335706, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Hand_Thumb_Top_L
+      parentName: Bone_Hand_Thumb_Mid_L
+      position: {x: 0.0000000040000305, y: 0.00031268317, z: 0.0000000017508864}
+      rotation: {x: -0.0077156187, y: 0.0007258942, z: -0.03979893, w: 0.9991777}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: Bone_Hand_Thumb_Top_L_end
+      parentName: Bone_Hand_Thumb_Top_L
+      position: {x: -0, y: 0.0009999993, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Twist_Wrist_L
+      parentName: Bone_Forearm_L
+      position: {x: 0.000000004498506, y: 0.0016357712, z: 1.1641532e-10}
+      rotation: {x: 0.0000000027939682, y: -0.00002695271, z: -0.00000000755972, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Bone_Twist_Wrist_L_end
+      parentName: Bone_Twist_Wrist_L
+      position: {x: -0, y: 0.0010000005, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Twist_Bicep_Top_L
+      parentName: Bone_Bicep_L
+      position: {x: 0.0000000026877387, y: 0.0000000014222314, z: -3.4924594e-11}
+      rotation: {x: 0.0000000061764407, y: -0.045610353, z: 0.00000011881022, w: 0.9989593}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Bone_Twist_Bicep_Top_L_end
+      parentName: Bone_Twist_Bicep_Top_L
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Twist_Bicep_Mid_L
+      parentName: Bone_Bicep_L
+      position: {x: 0.0000000018780701, y: 0.0008320731, z: -3.9290172e-11}
+      rotation: {x: 0.000000003668039, y: -0.022811217, z: 0.000000041262933, w: 0.9997398}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+    - name: Bone_Twist_Bicep_Mid_L_end
+      parentName: Bone_Twist_Bicep_Mid_L
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Collar_R
+      parentName: Bone_Chest
+      position: {x: 0.00021630415, y: 0.0012672544, z: 0.00020087605}
+      rotation: {x: -0.07219545, y: 0.07247459, z: -0.70204145, w: 0.70475036}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: Bone_Bicep_R
+      parentName: Bone_Collar_R
+      position: {x: 0.00000000409098, y: 0.0011925445, z: 2.7975944e-10}
+      rotation: {x: 0.10224872, y: 0.0049048853, z: -0.025484057, w: 0.99442035}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Forearm_R
+      parentName: Bone_Bicep_R
+      position: {x: 7.4294804e-10, y: 0.0024962148, z: 0.0000000013274257}
+      rotation: {x: 0.029115757, y: 0.0000003197539, z: -0.000000006637356, w: 0.99957603}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: Bone_Palm_R
+      parentName: Bone_Forearm_R
+      position: {x: 0.000000001457447, y: 0.0032715441, z: 5.1688404e-10}
+      rotation: {x: -0.020937432, y: -0.00004100781, z: 0.0010124908, w: 0.9997803}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Hand_Index_Base_R
+      parentName: Bone_Palm_R
+      position: {x: -0.000043976554, y: 0.0008289818, z: 0.00029524058}
+      rotation: {x: 0.0000023004832, y: -0.00000004854519, z: 0.00012073893, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Bone_Hand_Index_Mid_R
+      parentName: Bone_Hand_Index_Base_R
+      position: {x: -0.0000000030190859, y: 0.000462116, z: -1.3969838e-11}
+      rotation: {x: -0.000000087195076, y: -0.000000016647391, z: -0.000000007592462, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Bone_Hand_Index_Top_R
+      parentName: Bone_Hand_Index_Mid_R
+      position: {x: -8.813367e-10, y: 0.00026319313, z: 7.4505804e-11}
+      rotation: {x: -0.00000009266659, y: 0.000000018859282, z: 0.00000002941033, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Bone_Hand_Index_Top_R_end
+      parentName: Bone_Hand_Index_Top_R
+      position: {x: -0, y: 0.0009999991, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Hand_Middle_Base_R
+      parentName: Bone_Palm_R
+      position: {x: -0.00006380591, y: 0.0008467722, z: 0.000052920062}
+      rotation: {x: 0.0000023004832, y: -0.00000004877802, z: 0.00012076874, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Bone_Hand_Middle_Mid_R
+      parentName: Bone_Hand_Middle_Base_R
+      position: {x: -0.0000000010719532, y: 0.00049144437, z: 3.4924594e-11}
+      rotation: {x: -0.0000000881264, y: -0.000000016298145, z: -0.000000052305943, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Bone_Hand_Middle_Top_R
+      parentName: Bone_Hand_Middle_Mid_R
+      position: {x: -0.0000000017159664, y: 0.00032411158, z: 9.6624715e-11}
+      rotation: {x: -0.000000086962245, y: 0.000000018277206, z: 0.000000029426698, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Bone_Hand_Middle_Top_R_end
+      parentName: Bone_Hand_Middle_Top_R
+      position: {x: -0, y: 0.0009999991, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Hand_Ring_Base_R
+      parentName: Bone_Palm_R
+      position: {x: -0.000050392566, y: 0.0008141319, z: -0.00019210485}
+      rotation: {x: 0.0000022909371, y: -0.00000004854519, z: 0.000120738914, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Bone_Hand_Ring_Mid_R
+      parentName: Bone_Hand_Ring_Base_R
+      position: {x: -0.0000000024995097, y: 0.00048982445, z: 0}
+      rotation: {x: -0.00000007811468, y: -0.00000001641456, z: -0.000000007577, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Bone_Hand_Ring_Top_R
+      parentName: Bone_Hand_Ring_Mid_R
+      position: {x: 0.0000000031985836, y: 0.00029552527, z: 1.8626451e-11}
+      rotation: {x: 0.00000014924444, y: -0.00000012631062, z: -0.000000006362825, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Bone_Hand_Ring_Top_R_end
+      parentName: Bone_Hand_Ring_Top_R
+      position: {x: -0, y: 0.0009999991, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Hand_Pinkey_Base_R
+      parentName: Bone_Palm_R
+      position: {x: 0.0000015227224, y: 0.0007384812, z: -0.00038646028}
+      rotation: {x: 0.0000023280736, y: -0.000000059488226, z: 0.00012078376, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Bone_Hand_Pinkey_Mid_R
+      parentName: Bone_Hand_Pinkey_Base_R
+      position: {x: -0.0000000038938013, y: 0.00041555232, z: 9.313225e-11}
+      rotation: {x: -0.00000011478551, y: -0.000000005820766, z: -0.00000005243237, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Hand_Pinkey_Top_R
+      parentName: Bone_Hand_Pinkey_Mid_R
+      position: {x: -8.550705e-10, y: 0.00023052988, z: 1.0244548e-10}
+      rotation: {x: 0.00000014901161, y: -0.00000012642704, z: 0.000000030890988, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Bone_Hand_Pinkey_Top_R_end
+      parentName: Bone_Hand_Pinkey_Top_R
+      position: {x: -0, y: 0.0009999991, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Hand_Thumb_Base_R
+      parentName: Bone_Palm_R
+      position: {x: 0.00020487254, y: 0.00018622694, z: 0.00022935444}
+      rotation: {x: 0.39443544, y: 0.021239217, z: -0.049638778, w: 0.9173361}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1.0000001}
+    - name: Bone_Hand_Thumb_Mid_R
+      parentName: Bone_Hand_Thumb_Base_R
+      position: {x: -0.0000000018579885, y: 0.00048144316, z: 4.842877e-10}
+      rotation: {x: -0.0000023506582, y: -0.0000007338822, z: -0.000087533146, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Hand_Thumb_Top_R
+      parentName: Bone_Hand_Thumb_Mid_R
+      position: {x: -3.259629e-10, y: 0.0003126849, z: 0}
+      rotation: {x: -0.007713678, y: -0.0007241853, z: 0.039792266, w: 0.999178}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Bone_Hand_Thumb_Top_R_end
+      parentName: Bone_Hand_Thumb_Top_R
+      position: {x: -0, y: 0.0009999993, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Twist_Wrist_R
+      parentName: Bone_Forearm_R
+      position: {x: -0.0000014426691, y: 0.0016392237, z: 0.000023122378}
+      rotation: {x: -0.0035503292, y: -0.000032616055, z: -0.00021943545, w: 0.9999937}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Twist_Wrist_R_end
+      parentName: Bone_Twist_Wrist_R
+      position: {x: -0, y: 0.0009999991, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Twist_Bicep_Top_R
+      parentName: Bone_Bicep_R
+      position: {x: -0.000000003981768, y: 8.403731e-11, z: -7.130438e-12}
+      rotation: {x: 0.0000002877869, y: 0.045590825, z: -0.0000007130662, w: 0.9989602}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: Bone_Twist_Bicep_Top_R_end
+      parentName: Bone_Twist_Bicep_Top_R
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Twist_Bicep_Mid_R
+      parentName: Bone_Bicep_R
+      position: {x: -0.0000009619954, y: 0.00083192845, z: 0.000015497078}
+      rotation: {x: 0.00000016727414, y: 0.022801755, z: -0.00000062978995, w: 0.99974}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
+    - name: Bone_Twist_Bicep_Mid_R_end
+      parentName: Bone_Twist_Bicep_Mid_R
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Thigh_L
+      parentName: Bone_Pelvis
+      position: {x: -0.00071068516, y: -0.00020400962, z: 0.00015741121}
+      rotation: {x: -0.00076094305, y: 0.00023213922, z: 0.9990421, w: 0.043752983}
+      scale: {x: 1.0000145, y: 1, z: 1}
+    - name: Bone_Knee_L
+      parentName: Bone_Thigh_L
+      position: {x: -0.000001110012, y: 0.0041747275, z: -0.00000267984}
+      rotation: {x: -0.0621978, y: 0.00000210502, z: 0.00003834366, w: 0.99806386}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Bone_Ankle_L
+      parentName: Bone_Knee_L
+      position: {x: -0.0000000017321872, y: 0.0050505316, z: 6.2049366e-10}
+      rotation: {x: 0.5774755, y: 0.019989092, z: 0.038883355, w: 0.81523657}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Toe_L
+      parentName: Bone_Ankle_L
+      position: {x: 2.4064034e-10, y: 0.0016003563, z: -7.292669e-10}
+      rotation: {x: 0.15387592, y: -0.0000009515888, z: 0.0000006540861, w: 0.98809016}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Toe_L_end
+      parentName: Bone_Toe_L
+      position: {x: -0, y: 0.0009999991, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Twist_Thigh_L
+      parentName: Bone_Thigh_L
+      position: {x: 0.0000000013122189, y: 1.5250406e-10, z: -5.2386893e-12}
+      rotation: {x: -0.00032085011, y: -0.0007810318, z: 0.00013331082, w: 0.99999964}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Bone_Twist_Thigh_L_end
+      parentName: Bone_Twist_Thigh_L
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Thigh_R
+      parentName: Bone_Pelvis
+      position: {x: 0.0007106844, y: -0.0002040105, z: 0.00015741117}
+      rotation: {x: -0.00075121614, y: 0.00016222535, z: 0.9990538, w: -0.043486033}
+      scale: {x: 1.0000143, y: 1, z: 1}
+    - name: Bone_Knee_R
+      parentName: Bone_Thigh_R
+      position: {x: -0.0000011082587, y: 0.0041747293, z: -0.0000026799498}
+      rotation: {x: -0.062190745, y: 0.0000024683127, z: 0.000038282065, w: 0.9980643}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Bone_Ankle_R
+      parentName: Bone_Knee_R
+      position: {x: -0.0000000020036532, y: 0.0050505316, z: 6.437767e-10}
+      rotation: {x: 0.577532, y: -0.021241633, z: -0.037997164, w: 0.81520665}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Bone_Toe_R
+      parentName: Bone_Ankle_R
+      position: {x: 1.3550527e-10, y: 0.0016003572, z: 1.6621925e-10}
+      rotation: {x: 0.15387502, y: 0.0000020948048, z: -0.0000011268352, w: 0.98809034}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: Bone_Toe_R_end
+      parentName: Bone_Toe_R
+      position: {x: -0, y: 0.0009999991, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Twist_Thigh_R
+      parentName: Bone_Thigh_R
+      position: {x: 3.1530362e-10, y: 0.0000000017832781, z: -1.12049744e-11}
+      rotation: {x: -0.00032087168, y: -0.00073241163, z: 0.00013306111, w: 0.9999997}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Bone_Twist_Thigh_R_end
+      parentName: Bone_Twist_Thigh_R
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Split_Ass_L
+      parentName: Bone_Pelvis
+      position: {x: -0.0007106864, y: -0.000204012, z: 0.00015741117}
+      rotation: {x: -0.0003804128, y: 0.00011595694, z: 0.9997605, w: 0.021881975}
+      scale: {x: 1.0000008, y: 0.99999994, z: 1}
+    - name: Bone_Split_Ass_L_end
+      parentName: Bone_Split_Ass_L
+      position: {x: -0, y: 0.0010000006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Split_Ass_R
+      parentName: Bone_Pelvis
+      position: {x: 0.000710684, y: -0.0002040117, z: 0.00015741117}
+      rotation: {x: -0.00037566267, y: 0.00008098597, z: 0.9997634, w: -0.021748299}
+      scale: {x: 1.0000008, y: 1, z: 1}
+    - name: Bone_Split_Ass_R_end
+      parentName: Bone_Split_Ass_R
+      position: {x: -0, y: 0.0010000003, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Head_01
+      parentName: Bone_Pelvis
+      position: {x: -0.000000006001776, y: -0.010274872, z: -0.0000000057976965}
+      rotation: {x: 0.00000036359035, y: -0.00000004371148, z: -0.0000003139166, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Head_01_end
+      parentName: Bone_ACC_Head_01
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Head_02
+      parentName: Bone_Pelvis
+      position: {x: -0.000000006001776, y: -0.010274872, z: -0.0000000057976965}
+      rotation: {x: 0.00000036359035, y: -0.00000004371148, z: -0.0000003139166, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Head_02_end
+      parentName: Bone_ACC_Head_02
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Head_03
+      parentName: Bone_Pelvis
+      position: {x: -0.000000006001776, y: -0.010274872, z: -0.0000000057976965}
+      rotation: {x: 0.00000036359035, y: -0.00000004371148, z: -0.0000003139166, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Head_03_end
+      parentName: Bone_ACC_Head_03
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Head_04
+      parentName: Bone_Pelvis
+      position: {x: -0.000000006001776, y: -0.010274872, z: -0.0000000057976965}
+      rotation: {x: 0.00000036359035, y: -0.00000004371148, z: -0.0000003139166, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Head_04_end
+      parentName: Bone_ACC_Head_04
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Head_05
+      parentName: Bone_Pelvis
+      position: {x: -0.000000006001776, y: -0.010274872, z: -0.0000000057976965}
+      rotation: {x: 0.00000036359035, y: -0.00000004371148, z: -0.0000003139166, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Head_05_end
+      parentName: Bone_ACC_Head_05
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Head_06
+      parentName: Bone_Pelvis
+      position: {x: -0.000000006001776, y: -0.010274872, z: -0.0000000057976965}
+      rotation: {x: 0.00000036359035, y: -0.00000004371148, z: -0.0000003139166, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Head_06_end
+      parentName: Bone_ACC_Head_06
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Head_07
+      parentName: Bone_Pelvis
+      position: {x: -0.000000006001776, y: -0.010274872, z: -0.0000000057976965}
+      rotation: {x: 0.00000036359035, y: -0.00000004371148, z: -0.0000003139166, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Head_07_end
+      parentName: Bone_ACC_Head_07
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Head_08
+      parentName: Bone_Pelvis
+      position: {x: -0.000000006001776, y: -0.010274872, z: -0.0000000057976965}
+      rotation: {x: 0.00000036359035, y: -0.00000004371148, z: -0.0000003139166, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Head_08_end
+      parentName: Bone_ACC_Head_08
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Head_09
+      parentName: Bone_Pelvis
+      position: {x: -0.000000006001776, y: -0.010274872, z: -0.0000000057976965}
+      rotation: {x: 0.00000036359035, y: -0.00000004371148, z: -0.0000003139166, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Head_09_end
+      parentName: Bone_ACC_Head_09
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Torso_01
+      parentName: Bone_Pelvis
+      position: {x: -0.000000006001776, y: -0.010274872, z: -0.0000000057976965}
+      rotation: {x: 0.00000036359035, y: -0.00000004371148, z: -0.0000003139166, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Torso_01_end
+      parentName: Bone_ACC_Torso_01
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Torso_02
+      parentName: Bone_Pelvis
+      position: {x: -0.000000006001776, y: -0.010274872, z: -0.0000000057976965}
+      rotation: {x: 0.00000036359035, y: -0.00000004371148, z: -0.0000003139166, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Torso_02_end
+      parentName: Bone_ACC_Torso_02
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Torso_03
+      parentName: Bone_Pelvis
+      position: {x: -0.000000006001776, y: -0.010274872, z: -0.0000000057976965}
+      rotation: {x: 0.00000036359035, y: -0.00000004371148, z: -0.0000003139166, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Torso_03_end
+      parentName: Bone_ACC_Torso_03
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Torso_04
+      parentName: Bone_Pelvis
+      position: {x: -0.000000006001776, y: -0.010274872, z: -0.0000000057976965}
+      rotation: {x: 0.00000036359035, y: -0.00000004371148, z: -0.0000003139166, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Torso_04_end
+      parentName: Bone_ACC_Torso_04
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Legs_01
+      parentName: Bone_Pelvis
+      position: {x: -0.000000006001776, y: -0.010274872, z: -0.0000000057976965}
+      rotation: {x: 0.00000036359035, y: -0.00000004371148, z: -0.0000003139166, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Legs_01_end
+      parentName: Bone_ACC_Legs_01
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Legs_02
+      parentName: Bone_Pelvis
+      position: {x: -0.000000006001776, y: -0.010274872, z: -0.0000000057976965}
+      rotation: {x: 0.00000036359035, y: -0.00000004371148, z: -0.0000003139166, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Legs_02_end
+      parentName: Bone_ACC_Legs_02
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Legs_03
+      parentName: Bone_Pelvis
+      position: {x: -0.000000006001776, y: -0.010274872, z: -0.0000000057976965}
+      rotation: {x: 0.00000036359035, y: -0.00000004371148, z: -0.0000003139166, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Legs_03_end
+      parentName: Bone_ACC_Legs_03
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Legs_04
+      parentName: Bone_Pelvis
+      position: {x: -0.000000006001776, y: -0.010274872, z: -0.0000000057976965}
+      rotation: {x: 0.00000036359035, y: -0.00000004371148, z: -0.0000003139166, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_ACC_Legs_04_end
+      parentName: Bone_ACC_Legs_04
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_IK_Foot_Slave_L
+      parentName: Control_Root
+      position: {x: -0.0015113252, y: 0.0009193842, z: -0.00046866044}
+      rotation: {x: -0.000010844964, y: 0.52635294, z: 0.85026616, w: 0.00000722292}
+      scale: {x: 1.0000147, y: 1, z: 1}
+    - name: Bone_IK_Foot_Slave_L_end
+      parentName: Bone_IK_Foot_Slave_L
+      position: {x: -0, y: 0.001, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_IK_Foot_Slave_R
+      parentName: Control_Root
+      position: {x: 0.0015113264, y: 0.0009193801, z: -0.0004686595}
+      rotation: {x: 0.000011510003, y: 0.52635324, z: 0.850266, w: -0.000006756017}
+      scale: {x: 1.0000143, y: 0.99999994, z: 1.0000001}
+    - name: Bone_IK_Foot_Slave_R_end
+      parentName: Bone_IK_Foot_Slave_R
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bone_guitar_body
+      parentName: Control_Root
+      position: {x: -0.0034829807, y: 0.00426031, z: -0.0000000011002764}
+      rotation: {x: -0.00000044324423, y: 0.0000003266373, z: 0.7071068, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BONE_GUITAR_FRET_POS
+      parentName: bone_guitar_body
+      position: {x: -1.3541443e-10, y: 0.0026529687, z: -4.826006e-13}
+      rotation: {x: -0.000000001470776, y: 0.00000014901167, z: 0.00000005960463, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bone_ik_hand_guitar_l
+      parentName: BONE_GUITAR_FRET_POS
+      position: {x: -0.0007793853, y: -0.00008106943, z: 0.00019460407}
+      rotation: {x: -0.49569905, y: -0.49998483, z: -0.49997774, w: 0.50430137}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.99999994}
+    - name: bone_ik_hand_guitar_l_end
+      parentName: bone_ik_hand_guitar_l
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bone_guitar_string_1
+      parentName: BONE_GUITAR_FRET_POS
+      position: {x: 0.00023307506, y: -0.0000000011580804, z: 0.00017805723}
+      rotation: {x: 0.5000012, y: -0.4999995, z: -0.5000008, w: 0.49999866}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.9999999}
+    - name: bone_guitar_string_1_end
+      parentName: bone_guitar_string_1
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bone_guitar_string_2
+      parentName: BONE_GUITAR_FRET_POS
+      position: {x: 0.0001449764, y: -0.0000000011580804, z: 0.00017805712}
+      rotation: {x: 0.5000012, y: -0.49999943, z: -0.5000008, w: 0.49999863}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.9999999}
+    - name: bone_guitar_string_2_end
+      parentName: bone_guitar_string_2
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bone_guitar_string_3
+      parentName: BONE_GUITAR_FRET_POS
+      position: {x: 0.000049168793, y: -0.0000000011580804, z: 0.00017805697}
+      rotation: {x: 0.5000012, y: -0.4999995, z: -0.5000008, w: 0.49999866}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.9999999}
+    - name: bone_guitar_string_3_end
+      parentName: bone_guitar_string_3
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bone_guitar_string_4
+      parentName: BONE_GUITAR_FRET_POS
+      position: {x: -0.000054068536, y: -0.0000000011580804, z: 0.00017805686}
+      rotation: {x: 0.50000125, y: -0.49999937, z: -0.5000007, w: 0.49999866}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: bone_guitar_string_4_end
+      parentName: bone_guitar_string_4
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bone_guitar_string_5
+      parentName: BONE_GUITAR_FRET_POS
+      position: {x: -0.00014955636, y: -0.0000000011580804, z: 0.0001780567}
+      rotation: {x: 0.5000012, y: -0.49999943, z: -0.5000008, w: 0.49999863}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.9999999}
+    - name: bone_guitar_string_5_end
+      parentName: bone_guitar_string_5
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bone_guitar_string_6
+      parentName: BONE_GUITAR_FRET_POS
+      position: {x: -0.0002511483, y: -0.0000000011580804, z: 0.00017805658}
+      rotation: {x: 0.50000125, y: -0.49999937, z: -0.5000007, w: 0.49999866}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: bone_guitar_string_6_end
+      parentName: bone_guitar_string_6
+      position: {x: -0, y: 0.0010000004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bone_ik_hand_guitar_r
+      parentName: bone_guitar_body
+      position: {x: 0.00087862066, y: -2.4307656e-10, z: 0.00019790127}
+      rotation: {x: -0.49916556, y: 0.5008313, z: 0.5000953, w: 0.49990645}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: bone_ik_hand_guitar_r_end
+      parentName: bone_ik_hand_guitar_r
+      position: {x: -0, y: 0.0010000003, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Mic_Stand
+      parentName: Control_Root
+      position: {x: -5.8241756e-10, y: -0.0000000026077034, z: 0.01453921}
+      rotation: {x: 0.00000059604633, y: -0.0000003725292, z: -2.9627266e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Mic_Adjust_Height
+      parentName: Bone_Mic_Stand
+      position: {x: 0.000000001133004, y: 0.013708979, z: -0.000000023461345}
+      rotation: {x: -0.00000055134353, y: -0.00000041723246, z: 0.000000021856522, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Mic_Adjust_Angle
+      parentName: Bone_Mic_Adjust_Height
+      position: {x: -0.000000001666711, y: 0.0005743916, z: -0.0000000011920791}
+      rotation: {x: 0.25881934, y: -0.000000012435858, z: -0.00000049236394, w: 0.96592575}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_Mic_Microphone
+      parentName: Bone_Mic_Adjust_Angle
+      position: {x: -3.5851144e-12, y: 0.0003984314, z: 5.960383e-10}
+      rotation: {x: -0.7071072, y: 0.00000009943502, z: 0.0000008193171, w: 0.7071064}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bone_ik_hand_slave_l
+      parentName: Bone_Mic_Microphone
+      position: {x: -0.005453685, y: 0.010809889, z: -0.010932417}
+      rotation: {x: 0.19545399, y: -0.45711654, z: 0.8027275, w: 0.32934895}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: bone_ik_hand_slave_l_end
+      parentName: bone_ik_hand_slave_l
+      position: {x: -0, y: 0.0010000009, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bone_ik_hand_slave_r
+      parentName: Bone_Mic_Microphone
+      position: {x: 0.0054534907, y: 0.010809973, z: -0.010932293}
+      rotation: {x: -0.19541676, y: -0.4570588, z: 0.8027087, w: -0.32949728}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: bone_ik_hand_slave_r_end
+      parentName: bone_ik_hand_slave_r
+      position: {x: -0, y: 0.0010000003, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PLAYER_START_SINGER
+      parentName: BaseRocker(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: PLAYER_START_GUITAR
+      parentName: BaseRocker(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 2177cab0e18bbd24e80cbed397fceadc, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

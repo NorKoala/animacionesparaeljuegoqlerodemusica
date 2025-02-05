@@ -7,12 +7,14 @@ public class PerfExporter : MonoBehaviour
 {
     // Path to the file
     public string filePath;
-
+	public PerformanceValues PerfMaster;
+	
     private void Start()
     {
         // Set the file path relative to the persistent data path
         //filePath = Path.Combine(Application.persistentDataPath, "Performance.txt");
-
+		PerfMaster = GetComponent<PerformanceValues>();
+		
         // Optionally, create the file if it doesn't exist
         if (!File.Exists(filePath))
         {
@@ -42,6 +44,7 @@ public class PerfExporter : MonoBehaviour
 	public void AddEnding (){
 		File.AppendAllText(filePath,"]" + "\n");
 		//File.WriteLine(text + " = [");
+		Debug.Log("Performance File Exported at : " + System.DateTime.Now);
 	}
 	
     public void AddTextFacial(string name,float seconds,string Anim)
@@ -61,6 +64,39 @@ public class PerfExporter : MonoBehaviour
 		Debug.Log("Added FacialAnims: " + System.DateTime.Now);
     }
 	
+    public void AddTextBandClip(string name,float seconds,string Anim)
+    {
+        // Append text to the file with a new line
+		int milliseconds = Mathf.RoundToInt(seconds * 1000);
+		string convertedString = milliseconds.ToString();
+		File.AppendAllText(filePath, "{" + "\n");
+		File.AppendAllText(filePath, "   time = " + convertedString + "\n");
+		File.AppendAllText(filePath, "    scr = Band_PlayClip" + "\n");
+		File.AppendAllText(filePath, "    params = {" + "\n");
+		File.AppendAllText(filePath, "         clip = " + name + "_" + Anim + "\n");
+		File.AppendAllText(filePath, "         startframe  = 1" + "\n");
+		File.AppendAllText(filePath, "         endframe = 200" + "\n");
+		File.AppendAllText(filePath, "         timefactor = 1" + "\n");
+		File.AppendAllText(filePath, "        }" + "\n");
+		File.AppendAllText(filePath, "}," + "\n");
+		Debug.Log("Added Band_PlayIdle: " + System.DateTime.Now);
+    }
+	
+    public void AddTextPlayIdle(string name,float seconds,string Anim)
+    {
+        // Append text to the file with a new line
+		int milliseconds = Mathf.RoundToInt(seconds * 1000);
+		string convertedString = milliseconds.ToString();
+		File.AppendAllText(filePath, "{" + "\n");
+		File.AppendAllText(filePath, "   time = " + convertedString + "\n");
+		File.AppendAllText(filePath, "    scr = Band_PlayIdle" + "\n");
+		File.AppendAllText(filePath, "    params = {" + "\n");
+		File.AppendAllText(filePath, "         name = " + name + "\n");
+		File.AppendAllText(filePath, "         no_id = restart" + "\n");
+		File.AppendAllText(filePath, "        }" + "\n");
+		File.AppendAllText(filePath, "}," + "\n");
+		Debug.Log("Added FacialAnims: " + System.DateTime.Now);
+    }
 	
     public void AddText(string name,float seconds,string Anim)
     {
