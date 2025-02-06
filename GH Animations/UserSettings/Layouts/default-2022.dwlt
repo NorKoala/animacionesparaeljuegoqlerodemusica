@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1854
     height: 1037
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -376,9 +376,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 265a0000
-      m_LastClickedID: 23078
-      m_ExpandedIDs: 2efbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 5ce3fffface3ffff2efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -784,9 +784,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.0578957, y: -0.68013716, z: -4.3731675}
+    m_Target: {x: 1.5888491, y: -1.1796088, z: -4.549513}
     speed: 2
-    m_Value: {x: 2.0578957, y: -0.68013716, z: -4.3731675}
+    m_Value: {x: 1.5888491, y: -1.1796088, z: -4.549513}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 1
@@ -832,13 +832,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.07492108, y: 0.9083849, z: -0.18539682, w: 0.36735734}
+    m_Target: {x: 0.0663622, y: 0.9230742, z: -0.18550962, w: 0.33047685}
     speed: 2
-    m_Value: {x: 0.07463918, y: 0.90888965, z: -0.18549976, w: 0.36597613}
+    m_Value: {x: 0.0660806, y: 0.92352325, z: -0.18559979, w: 0.32907563}
   m_Size:
-    m_Target: 7.5933237
+    m_Target: 8.221494
     speed: 2
-    m_Value: 7.5933237
+    m_Value: 8.2278
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1083,7 +1083,7 @@ MonoBehaviour:
     m_SaveData: []
     m_OverlaysVisible: 1
   m_SearchFilter:
-    m_NameFilter: S_Adam_LowKey_075_14
+    m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -1093,24 +1093,24 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animations/S Loops
+    - Assets/Scenes
     m_Globs: []
-    m_OriginalText: S_Adam_LowKey_075_14
+    m_OriginalText: 
     m_ImportLogFlags: 0
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Animations/S Loops
+  - Assets/Scenes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: F:\GitHub\animacionesparaeljuegoqlerodemusica\GH Animations
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 20620000
-    m_LastClickedID: 25120
-    m_ExpandedIDs: 0000000016620000186200001e62000000ca9a3b
+    scrollPos: {x: 0, y: 4}
+    m_SelectedIDs: 28620000
+    m_LastClickedID: 25128
+    m_ExpandedIDs: 00000000166200001e62000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1165,7 +1165,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000005b00001a5b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1230,7 +1230,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 23078
+  m_LastSelectedObjectID: 28046
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1306,7 +1306,7 @@ MonoBehaviour:
     m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 378
+  m_LastVerticalScrollValue: 54
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

@@ -1,0 +1,535 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Conspiracy
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: e6885181dc20eb24ab9c9bd3cb99c43d, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: checksum
+    value: rbcustomconspiracy
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: WritePerformance
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: PerfMaster
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.size
+    value: 41
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[0].PerfAnim
+    value: guit_greg_notempo_02
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[0].action
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[0].delay
+    value: 0.001
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[1].PerfAnim
+    value: guit_greg_notempo_01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[1].action
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[1].delay
+    value: 0.001
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[2].PerfAnim
+    value: sing_greg_notempo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[2].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[2].delay
+    value: 0.001
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[3].PerfAnim
+    value: singer_chillin
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[3].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[3].delay
+    value: 3.428
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[4].PerfAnim
+    value: Guit_Adam_Lowkey_120
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[4].action
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[4].delay
+    value: 3.428
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[5].PerfAnim
+    value: guit_joer_hot_075
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[5].action
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[5].delay
+    value: 3.428
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[6].PerfAnim
+    value: s_adam_ns_dance_joker_075_01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[6].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[6].delay
+    value: 15.854
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[7].PerfAnim
+    value: Guit_ChrisVance_Damnit_120_02
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[7].action
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[7].delay
+    value: 15.854
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[8].PerfAnim
+    value: guit_joer_hot_120
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[8].action
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[8].delay
+    value: 15.854
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[9].PerfAnim
+    value: S_Adam_LowKey_075_13
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[9].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[9].delay
+    value: 31.163
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[10].PerfAnim
+    value: guit_Judita_joker_100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[10].action
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[10].delay
+    value: 31.163
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[11].PerfAnim
+    value: guit_Ginger_areyou_120_01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[11].action
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[11].delay
+    value: 31.163
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[12].PerfAnim
+    value: conspiracy01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[12].action
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[12].delay
+    value: 31.163
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[13].PerfAnim
+    value: S_Adam_LowKey_075_14
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[13].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[13].delay
+    value: 43.99
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[14].PerfAnim
+    value: S_ExGirlfriend_08
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[14].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[14].delay
+    value: 56.404
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[15].PerfAnim
+    value: Guit_ChrisVance_Bulls_75
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[15].action
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[15].delay
+    value: 56.404
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[16].PerfAnim
+    value: guit_joer_hot_100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[16].action
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[16].delay
+    value: 56.404
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[17].PerfAnim
+    value: Sing_Amanda_Joker_120_02
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[17].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[17].delay
+    value: 70.887
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[18].PerfAnim
+    value: Sing_Natalie_AreYou_100_1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[18].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[18].delay
+    value: 82.887
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[19].PerfAnim
+    value: S_YouGiveLove2_08
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[19].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[19].delay
+    value: 103.576
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[20].PerfAnim
+    value: guit_Ginger_areyou_100_01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[20].action
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[20].delay
+    value: 103.576
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[21].PerfAnim
+    value: conspiracy02
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[21].action
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[21].delay
+    value: 110.883
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[22].PerfAnim
+    value: S_ExGirlfriend_09
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[22].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[22].delay
+    value: 118.473
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[23].PerfAnim
+    value: singing01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[23].action
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[23].delay
+    value: 123.748
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[24].PerfAnim
+    value: GSB_G_Jam01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[24].action
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[24].delay
+    value: 123.748
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[25].PerfAnim
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[25].action
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[25].delay
+    value: 126.954
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[26].PerfAnim
+    value: Guit_ChrisVance_Bulls_75
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[26].action
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[26].delay
+    value: 126.955
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[27].PerfAnim
+    value: Sing_Amanda_Today_100_01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[27].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[27].delay
+    value: 126.955
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[28].PerfAnim
+    value: S_Adam_LowKey_075_14
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[28].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[28].delay
+    value: 137.093
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[29].PerfAnim
+    value: singer_chillin
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[29].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[29].delay
+    value: 144.572
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[30].PerfAnim
+    value: Sing_Amanda_Today_075_01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[30].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[30].delay
+    value: 150.022
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[31].PerfAnim
+    value: S_Adam_LowKey_075_01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[31].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[31].delay
+    value: 165.642
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[32].PerfAnim
+    value: S_ExGirlfriend_08
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[32].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[32].delay
+    value: 175.573
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[33].PerfAnim
+    value: Sing_Natalie_AreYou_100_1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[33].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[33].delay
+    value: 188.815
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[34].PerfAnim
+    value: S_LongNote06
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[34].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[34].delay
+    value: 196.263
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[35].PerfAnim
+    value: singer_chillin
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[35].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[35].delay
+    value: 201.228
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[36].PerfAnim
+    value: Guit_Adam_Lowkey_120
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[36].action
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[36].delay
+    value: 201.228
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[37].PerfAnim
+    value: guit_Judita_joker_100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[37].action
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[37].delay
+    value: 201.228
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[38].PerfAnim
+    value: guit_greg_notempo_02
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[38].action
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[38].delay
+    value: 214.883
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[39].PerfAnim
+    value: guit_greg_notempo_01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[39].action
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[39].delay
+    value: 214.883
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[40].PerfAnim
+    value: sing_greg_notempo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[40].action
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: entries.entries.Array.data[40].delay
+    value: 214.883
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

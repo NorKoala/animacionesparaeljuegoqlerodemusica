@@ -27,7 +27,7 @@ public class PerformanceManager : MonoBehaviour
     /*public Animator BassAnim;
 	public Animator GuitarAnim;
 	public Animator SingerAnim;*/
-	public PerformanceValues PerfMaster;
+	PerformanceValues PerfMaster;
 		
 		public enum Action
         {

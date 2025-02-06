@@ -2032,8 +2032,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 787003694}
-  - component: {fileID: 787003697}
   - component: {fileID: 787003695}
+  - component: {fileID: 787003697}
   - component: {fileID: 787003696}
   m_Layer: 0
   m_Name: PerformanceManager
@@ -2071,7 +2071,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   checksum: rbcustomconspiracy
   WritePerformance: 1
-  PerfMaster: {fileID: 787003697}
   entries:
     entries:
     - PerfAnim: guit_greg_notempo_02
@@ -2083,120 +2082,6 @@ MonoBehaviour:
     - PerfAnim: sing_greg_notempo
       action: 0
       delay: 0.001
-    - PerfAnim: singer_chillin
-      action: 0
-      delay: 3.428
-    - PerfAnim: Guit_Adam_Lowkey_120
-      action: 1
-      delay: 3.428
-    - PerfAnim: guit_joer_hot_075
-      action: 2
-      delay: 3.428
-    - PerfAnim: s_adam_ns_dance_joker_075_01
-      action: 0
-      delay: 15.854
-    - PerfAnim: Guit_ChrisVance_Damnit_120_02
-      action: 1
-      delay: 15.854
-    - PerfAnim: guit_joer_hot_120
-      action: 2
-      delay: 15.854
-    - PerfAnim: S_Adam_LowKey_075_13
-      action: 0
-      delay: 31.163
-    - PerfAnim: guit_Judita_joker_100
-      action: 1
-      delay: 31.163
-    - PerfAnim: guit_Ginger_areyou_120_01
-      action: 2
-      delay: 31.163
-    - PerfAnim: conspiracy01
-      action: 3
-      delay: 31.163
-    - PerfAnim: S_Adam_LowKey_075_14
-      action: 0
-      delay: 43.99
-    - PerfAnim: S_ExGirlfriend_08
-      action: 0
-      delay: 56.404
-    - PerfAnim: Guit_ChrisVance_Bulls_75
-      action: 1
-      delay: 56.404
-    - PerfAnim: guit_joer_hot_100
-      action: 2
-      delay: 56.404
-    - PerfAnim: Sing_Amanda_Joker_120_02
-      action: 0
-      delay: 70.887
-    - PerfAnim: Sing_Natalie_AreYou_100_1
-      action: 0
-      delay: 82.887
-    - PerfAnim: S_YouGiveLove2_08
-      action: 0
-      delay: 103.576
-    - PerfAnim: guit_Ginger_areyou_100_01
-      action: 2
-      delay: 103.576
-    - PerfAnim: conspiracy02
-      action: 3
-      delay: 110.883
-    - PerfAnim: S_ExGirlfriend_09
-      action: 0
-      delay: 118.473
-    - PerfAnim: singing01
-      action: 4
-      delay: 123.748
-    - PerfAnim: GSB_G_Jam01
-      action: 1
-      delay: 123.748
-    - PerfAnim: 
-      action: 5
-      delay: 126.954
-    - PerfAnim: Guit_ChrisVance_Bulls_75
-      action: 1
-      delay: 126.955
-    - PerfAnim: Sing_Amanda_Today_100_01
-      action: 0
-      delay: 126.955
-    - PerfAnim: S_Adam_LowKey_075_14
-      action: 0
-      delay: 137.093
-    - PerfAnim: singer_chillin
-      action: 0
-      delay: 144.572
-    - PerfAnim: Sing_Amanda_Today_075_01
-      action: 0
-      delay: 150.022
-    - PerfAnim: S_Adam_LowKey_075_01
-      action: 0
-      delay: 165.642
-    - PerfAnim: S_ExGirlfriend_08
-      action: 0
-      delay: 175.573
-    - PerfAnim: Sing_Natalie_AreYou_100_1
-      action: 0
-      delay: 188.815
-    - PerfAnim: S_LongNote06
-      action: 0
-      delay: 196.263
-    - PerfAnim: singer_chillin
-      action: 0
-      delay: 201.228
-    - PerfAnim: Guit_Adam_Lowkey_120
-      action: 1
-      delay: 201.228
-    - PerfAnim: guit_Judita_joker_100
-      action: 2
-      delay: 201.228
-    - PerfAnim: guit_greg_notempo_02
-      action: 2
-      delay: 214.883
-    - PerfAnim: guit_greg_notempo_01
-      action: 1
-      delay: 214.883
-    - PerfAnim: sing_greg_notempo
-      action: 0
-      delay: 214.883
 --- !u!114 &787003696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4085,7 +3970,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8755f8e3a2f63d64fb960a094f61e7f0, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
