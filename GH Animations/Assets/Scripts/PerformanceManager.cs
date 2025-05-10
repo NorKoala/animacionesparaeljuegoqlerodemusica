@@ -16,17 +16,7 @@ public class PerformanceManager : MonoBehaviour
     //public BandManager Band;
 	public string checksum;
 	public bool WritePerformance;
-	/*public bool WriteCheckSum;
-	public bool BuildSingPerformance;
-	public bool BuildGuitPerformance;
-	public bool BuildBassPerformance;
-	public bool BuildFacialPerformance;*/
-	/*public PerfExporter Exporter;
-	public Text SingAnimText;*/
-		//public Animator [] Band;
-    /*public Animator BassAnim;
-	public Animator GuitarAnim;
-	public Animator SingerAnim;*/
+	public bool WriteSongScript;
 	PerformanceValues PerfMaster;
 		
 		public enum Action
@@ -36,7 +26,10 @@ public class PerformanceManager : MonoBehaviour
 			AnimateBassist,
 			AnimateFacial,
 			AnimatePlayClip,
+			//AnimatePlayClipFromObject,
 			AnimatePlayIdle,
+			AnimateFacialGuit,
+			AnimateFacialBass,
 			//Activate,
             //Deactivate,
             Call,
@@ -50,6 +43,8 @@ public class PerformanceManager : MonoBehaviour
             public string PerfAnim;
 			public Action action;
             public float delay;
+			//public GameObject target;
+			public BandClipCreator ClipCreator;
         }
 
 
@@ -66,10 +61,9 @@ public class PerformanceManager : MonoBehaviour
         private void Awake()
         {
 			PerfMaster = GetComponent<PerformanceValues>();
-            if(WritePerformance){
-				
-				PerfMaster.Exporter.AddCheksum(checksum);
-				}
+			PerfMaster.audioSource.Play();
+			if(WriteSongScript) PerfMaster.Exporter.AddSongScriptIntro(checksum);
+            if(WritePerformance) PerfMaster.Exporter.AddCheksum(checksum);
 			foreach (Entry entry in entries.entries)
             {
                 switch (entry.action)
@@ -86,23 +80,36 @@ public class PerformanceManager : MonoBehaviour
 					case Action.AnimateFacial:
                         StartCoroutine(AnimateFacial(entry));
                         break;
+					case Action.AnimateFacialGuit:
+                        StartCoroutine(AnimateFacialGuit(entry));
+                        break;
+					case Action.AnimateFacialBass:
+                        StartCoroutine(AnimateFacialBass(entry));
+                        break;
 					case Action.AnimatePlayClip:
                         StartCoroutine(AnimatePlayClip(entry));
                         break;
 					case Action.AnimatePlayIdle:
                         StartCoroutine(AnimatePlayIdle(entry));
                         break;
+					/*case Action.Activate:
+                        StartCoroutine(Activate(entry));
+                        break;*/
                 }
             }
 			if(WritePerformance)PerfMaster.Exporter.AddEnding();
         }
 
-
+        /*private IEnumerator Activate(Entry entry)
+        {
+            yield return new WaitForSeconds(entry.delay);
+            entry.target.SetActive(true);
+        }*/
+		
         private IEnumerator AnimateSing(Entry entry)
         {
             if(WritePerformance)PerfMaster.Exporter.AddText("vocalist",entry.delay,entry.PerfAnim);
 			yield return new WaitForSeconds(entry.delay);
-            //entry.target.SetActive(true);
 			//SingerAnim.runtimeAnimatorController = PerfAnim[entry];
 			PerfMaster.Band.SingerAnim.Play (entry.PerfAnim, 0, 0f);
 			PerfMaster.SingAnimText.text = entry.PerfAnim;
@@ -112,7 +119,6 @@ public class PerformanceManager : MonoBehaviour
         {
             if(WritePerformance)PerfMaster.Exporter.AddText("guitarist",entry.delay,entry.PerfAnim);
 			yield return new WaitForSeconds(entry.delay);
-            //entry.target.SetActive(true);
 			PerfMaster.Band.GuitarAnim.Play (entry.PerfAnim, 0, 0f);
         }
 
@@ -120,28 +126,45 @@ public class PerformanceManager : MonoBehaviour
         {
             if(WritePerformance)PerfMaster.Exporter.AddText("bassist",entry.delay,entry.PerfAnim);
 			yield return new WaitForSeconds(entry.delay);
-            //entry.target.SetActive(true);
 			PerfMaster.Band.BassAnim.Play (entry.PerfAnim, 0, 0f);
         }
         private IEnumerator AnimateFacial(Entry entry)
         {
             if(WritePerformance)PerfMaster.Exporter.AddTextFacial("vocalist",entry.delay,entry.PerfAnim);
 			yield return new WaitForSeconds(entry.delay);
-            //entry.target.SetActive(true);
+			//PerfMaster.Band.BassAnim.Play (entry.PerfAnim, 0, 0f);
+        }
+		private IEnumerator AnimateFacialGuit(Entry entry)
+        {
+            if(WritePerformance)PerfMaster.Exporter.AddTextFacial("guitarist",entry.delay,entry.PerfAnim);
+			yield return new WaitForSeconds(entry.delay);
+			//PerfMaster.Band.BassAnim.Play (entry.PerfAnim, 0, 0f);
+        }
+		private IEnumerator AnimateFacialBass(Entry entry)
+        {
+            if(WritePerformance)PerfMaster.Exporter.AddTextFacial("bassist",entry.delay,entry.PerfAnim);
+			yield return new WaitForSeconds(entry.delay);
 			//PerfMaster.Band.BassAnim.Play (entry.PerfAnim, 0, 0f);
         }
 		private IEnumerator AnimatePlayClip(Entry entry)
         {
-            if(WritePerformance)PerfMaster.Exporter.AddTextBandClip(checksum,entry.delay,entry.PerfAnim);
+            //if(WritePerformance)PerfMaster.Exporter.AddTextBandClip(checksum,entry.delay,entry.PerfAnim);
+			//if(WritePerformance) entry.ClipCreator(PerfMaster.Exporter);
+			if(WritePerformance){
+				 //BandClipCreator ClipCreator = entry.target.GetComponent<BandClipCreator>();
+				 entry.ClipCreator.CreateClip(PerfMaster.Exporter,entry.delay,checksum);
+			}
+				//CreateClip BandClipCreator PerfExporter Exporter 
 			yield return new WaitForSeconds(entry.delay);
-            //entry.target.SetActive(true);
 			//PerfMaster.Band.BassAnim.Play (entry.PerfAnim, 0, 0f);
+			//PerfExporter Exporter
+			entry.ClipCreator.PlayClip();
+			
         }
 		private IEnumerator AnimatePlayIdle(Entry entry)
         {
             if(WritePerformance)PerfMaster.Exporter.AddTextPlayIdle("vocalist",entry.delay,entry.PerfAnim);
 			yield return new WaitForSeconds(entry.delay);
-            //entry.target.SetActive(true);
 			//PerfMaster.Band.BassAnim.Play (entry.PerfAnim, 0, 0f);
         }
     }
@@ -201,13 +224,32 @@ namespace UnityStandardAssets.Utility.Inspector
 
                     Rect buttonRect = new Rect(rowX, y, buttonWidth, k_LineHeight);
                     rowX += buttonWidth;
+					
 
                     // Draw fields - passs GUIContent.none to each so they are drawn without labels
 
-                        EditorGUI.PropertyField(actionRect, entry.FindPropertyRelative("action"), GUIContent.none);
+                        /*EditorGUI.PropertyField(actionRect, entry.FindPropertyRelative("action"), GUIContent.none);
                         //EditorGUI.PropertyField(targetRect, entry.FindPropertyRelative("target"), GUIContent.none);
 					EditorGUI.PropertyField(PerfAnimRect, entry.FindPropertyRelative("PerfAnim"), GUIContent.none);	
+                    EditorGUI.PropertyField(delayRect, entry.FindPropertyRelative("delay"), GUIContent.none);*/
+					
+                    if (entry.FindPropertyRelative("action").enumValueIndex ==
+                        (int) PerformanceManager.Action.AnimatePlayClip)
+                    {
+                        EditorGUI.PropertyField(actionRect, entry.FindPropertyRelative("action"), GUIContent.none);
+                        EditorGUI.PropertyField(PerfAnimRect, entry.FindPropertyRelative("ClipCreator"), GUIContent.none);
+                    }
+                    else
+                    {
+                        //actionRect.width = actionRect.width + targetRect.width;
+                        EditorGUI.PropertyField(actionRect, entry.FindPropertyRelative("action"), GUIContent.none);
+						EditorGUI.PropertyField(PerfAnimRect, entry.FindPropertyRelative("PerfAnim"), GUIContent.none);	
+                    }
+
                     EditorGUI.PropertyField(delayRect, entry.FindPropertyRelative("delay"), GUIContent.none);
+					
+					
+					
                     if (GUI.Button(buttonRect, "-"))
                     {
                         entries.DeleteArrayElementAtIndex(i);

@@ -969,6 +969,7 @@ GameObject:
   m_Component:
   - component: {fileID: 170038102}
   - component: {fileID: 170038101}
+  - component: {fileID: 170038103}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -1042,6 +1043,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 3780744723516111378}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &170038103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170038099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e520e2465ca4ba4ebee2316c94d30c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camTransform: {fileID: 0}
+  shakeAmount: 0.002
+  Shake: 0
 --- !u!4 &201421907 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -3500645483273186357, guid: 2177cab0e18bbd24e80cbed397fceadc, type: 3}
@@ -1077,6 +1093,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 543450653228104010}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &273162973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 273162974}
+  m_Layer: 0
+  m_Name: SingPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &273162974
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273162973}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1800293385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &301408234
 PrefabInstance:
@@ -1616,6 +1663,101 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8084392945499184562, guid: 2177cab0e18bbd24e80cbed397fceadc, type: 3}
   m_PrefabInstance: {fileID: 1855732363}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &378596258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 378596259}
+  m_Layer: 0
+  m_Name: BassPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &378596259
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378596258}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.5078, y: 0, z: -0.527}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1800293385}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &437235678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 437235679}
+  - component: {fileID: 437235680}
+  m_Layer: 0
+  m_Name: ineedaheroend
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &437235679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437235678}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1661457205}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &437235680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437235678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d66bf945495a24147a195c6fe32d0cad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Anim: {fileID: 1992931205}
+  PerfAnim: S_Intense_10
+  ClipName: ineedaheroend
+  AnimTime: 0.45
+  StartTime: 8.2
+  EndTime: 18.3
+  CameraName01: S_Intense_10_c01
+  CameraName02: S_Intense_10_c02
+  ik_targetl: slave
+  ik_targetr: slave
+  strum: false
+  fret: false
+  chord: false
+  Band1: vocalist
+  Band2: '"TRG_Geo_Camera_Performance_SING01"'
+  BandLocation: '"vocalist_start"'
+  target: {fileID: 273162973}
+  Test: 0
+  audioSource: {fileID: 2016775182}
+  delay: 269.879
 --- !u!1 &445925623
 GameObject:
   m_ObjectHideFlags: 0
@@ -1817,6 +1959,82 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 474011938}
+  m_CullTransparentMesh: 1
+--- !u!1 &574238156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 574238157}
+  - component: {fileID: 574238159}
+  - component: {fileID: 574238158}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &574238157
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574238156}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1394571267}
+  m_Father: {fileID: 1841612779}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 106}
+  m_SizeDelta: {x: 450.2968, y: 130}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &574238158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574238156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 0.8}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &574238159
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574238156}
   m_CullTransparentMesh: 1
 --- !u!1 &670121630
 GameObject:
@@ -2069,19 +2287,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6885181dc20eb24ab9c9bd3cb99c43d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  checksum: rbcustomconspiracy
-  WritePerformance: 1
+  checksum: YourChecksumHere
+  WritePerformance: 0
+  WriteSongScript: 0
   entries:
     entries:
     - PerfAnim: guit_greg_notempo_02
       action: 2
       delay: 0.001
+      ClipCreator: {fileID: 0}
     - PerfAnim: guit_greg_notempo_01
       action: 1
       delay: 0.001
+      ClipCreator: {fileID: 0}
     - PerfAnim: sing_greg_notempo
       action: 0
       delay: 0.001
+      ClipCreator: {fileID: 0}
 --- !u!114 &787003696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2094,9 +2316,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd04dadfa088bfb4ab3911f78aa8684e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  filePath: E:\Models\GuitarHeroMods\ToolKit\GH Toolkit\Canciones\Paramore Track
-    pack\ParamoreTrackPackVol1_1_chps\paramoreconspiracyperf.txt
+  filePath: E:\YouSongFolderPlaceHere\Perf.txt
+  SongScriptfilePath: E:\YouSongFolderPlaceHere\SongScript.txt
   PerfMaster: {fileID: 787003697}
+  PerfExportSuccess: {fileID: 574238156}
 --- !u!114 &787003697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2112,6 +2335,8 @@ MonoBehaviour:
   Band: {fileID: 832950981}
   Exporter: {fileID: 787003696}
   SingAnimText: {fileID: 1960907624}
+  audioSource: {fileID: 2016775182}
+  timeText: {fileID: 1650997847}
 --- !u!114 &815546939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2369,6 +2594,70 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2956121422638542127, guid: 2177cab0e18bbd24e80cbed397fceadc, type: 3}
   m_PrefabInstance: {fileID: 1855732363}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1097646753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1097646754}
+  - component: {fileID: 1097646755}
+  m_Layer: 0
+  m_Name: HappyRainEnd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1097646754
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097646753}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1661457205}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1097646755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097646753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d66bf945495a24147a195c6fe32d0cad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Anim: {fileID: 1992931205}
+  PerfAnim: S_HappyWhenItRainsEnd_02
+  ClipName: HappyRainEnd
+  AnimTime: 0.8
+  StartTime: 28
+  EndTime: 34.95
+  CameraName01: S_HappyWhenItRainsEnd_02_c01
+  CameraName02: S_HappyWhenItRainsEnd_02_c02
+  ik_targetl: slave
+  ik_targetr: slave
+  strum: false
+  fret: false
+  chord: false
+  Band1: vocalist
+  Band2: '"TRG_Geo_Camera_Performance_SING01"'
+  BandLocation: '"vocalist_start"'
+  target: {fileID: 273162973}
+  Test: 0
+  audioSource: {fileID: 2016775182}
+  delay: 214.729
 --- !u!1 &1102130660
 GameObject:
   m_ObjectHideFlags: 0
@@ -2508,6 +2797,70 @@ MonoBehaviour:
   time: 0
   Destruir: 0
   DestroyTime: 0
+--- !u!1 &1184039991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1184039992}
+  - component: {fileID: 1184039993}
+  m_Layer: 0
+  m_Name: HappyRain01 B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1184039992
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184039991}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1661457205}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1184039993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184039991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d66bf945495a24147a195c6fe32d0cad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Anim: {fileID: 1992931205}
+  PerfAnim: S_HappyWhenItRains_03
+  ClipName: HappyRain01
+  AnimTime: 0.39
+  StartTime: 14.3
+  EndTime: 36.2
+  CameraName01: S_HappyWhenItRains_03_c01
+  CameraName02: S_HappyWhenItRains_03_c02
+  ik_targetl: slave
+  ik_targetr: slave
+  strum: false
+  fret: false
+  chord: false
+  Band1: vocalist
+  Band2: '"TRG_Geo_Camera_Performance_SING01"'
+  BandLocation: '"vocalist_start"'
+  target: {fileID: 273162973}
+  Test: 0
+  audioSource: {fileID: 2016775182}
+  delay: 212.971
 --- !u!1 &1185079795
 GameObject:
   m_ObjectHideFlags: 0
@@ -2539,6 +2892,134 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1863691121}
   m_LocalEulerAnglesHint: {x: 15, y: -135, z: 0}
+--- !u!1 &1236401264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1236401265}
+  - component: {fileID: 1236401266}
+  m_Layer: 0
+  m_Name: HappyRain03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1236401265
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236401264}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1661457205}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1236401266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236401264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d66bf945495a24147a195c6fe32d0cad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Anim: {fileID: 1992931205}
+  PerfAnim: S_HappyWhenItRains_02
+  ClipName: HappyRain03
+  AnimTime: 0.1
+  StartTime: 3.7
+  EndTime: 36.8
+  CameraName01: S_HappyWhenItRains_02_c01
+  CameraName02: S_HappyWhenItRains_02_c02
+  ik_targetl: slave
+  ik_targetr: slave
+  strum: false
+  fret: false
+  chord: false
+  Band1: vocalist
+  Band2: '"TRG_Geo_Camera_Performance_SING01"'
+  BandLocation: '"vocalist_start"'
+  target: {fileID: 273162973}
+  Test: 0
+  audioSource: {fileID: 2016775182}
+  delay: 185.255
+--- !u!1 &1293008911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1293008912}
+  - component: {fileID: 1293008913}
+  m_Layer: 0
+  m_Name: gb_playjumping_b
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1293008912
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293008911}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1661457205}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1293008913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293008911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d66bf945495a24147a195c6fe32d0cad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Anim: {fileID: 1992931205}
+  PerfAnim: gb_playjumping_b
+  ClipName: playjumpbass
+  AnimTime: 0
+  StartTime: 0
+  EndTime: 11
+  CameraName01: gb_playjumping_c01
+  CameraName02: gb_playjumping_c02
+  ik_targetl: slave
+  ik_targetr: slave
+  strum: false
+  fret: false
+  chord: false
+  Band1: bassist
+  Band2: '"TRG_Geo_Camera_Performance_GUIT01"'
+  BandLocation: '"guitarist_start"'
+  target: {fileID: 2074091941}
+  Test: 0
+  audioSource: {fileID: 2016775182}
+  delay: 18.685
 --- !u!1 &1297198668
 GameObject:
   m_ObjectHideFlags: 0
@@ -2638,6 +3119,85 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2956121422638542127, guid: 2177cab0e18bbd24e80cbed397fceadc, type: 3}
   m_PrefabInstance: {fileID: 1792639101}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1394571266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1394571267}
+  - component: {fileID: 1394571269}
+  - component: {fileID: 1394571268}
+  m_Layer: 5
+  m_Name: Text (Legacy) (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1394571267
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394571266}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 574238157}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -0.000061035, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1394571268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394571266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: PERFORMANCE EXPORTED SUCCESFULLY
+--- !u!222 &1394571269
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394571266}
+  m_CullTransparentMesh: 1
 --- !u!1 &1424078097
 GameObject:
   m_ObjectHideFlags: 0
@@ -2669,6 +3229,70 @@ Transform:
   m_Children: []
   m_Father: {fileID: 746952985}
   m_LocalEulerAnglesHint: {x: 15, y: -135, z: 0}
+--- !u!1 &1481619300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1481619301}
+  - component: {fileID: 1481619302}
+  m_Layer: 0
+  m_Name: AnimTest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1481619301
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481619300}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1661457205}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1481619302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481619300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d66bf945495a24147a195c6fe32d0cad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Anim: {fileID: 1992931205}
+  PerfAnim: BeatIt_SingToCam_SING
+  ClipName: AnimTest
+  AnimTime: 0
+  StartTime: 0
+  EndTime: 18
+  CameraName01: S_HappyWhenItRainsEnd_02_c01
+  CameraName02: S_HappyWhenItRainsEnd_02_c02
+  ik_targetl: slave
+  ik_targetr: slave
+  strum: false
+  fret: false
+  chord: false
+  Band1: vocalist
+  Band2: '"TRG_Geo_Camera_Performance_SING01"'
+  BandLocation: '"vocalist_start"'
+  target: {fileID: 273162973}
+  Test: 0
+  audioSource: {fileID: 2016775182}
+  delay: 86.322
 --- !u!1 &1548221826
 GameObject:
   m_ObjectHideFlags: 0
@@ -2712,6 +3336,70 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8084392945499184562, guid: 2177cab0e18bbd24e80cbed397fceadc, type: 3}
   m_PrefabInstance: {fileID: 1992931201}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1607936537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1607936538}
+  - component: {fileID: 1607936539}
+  m_Layer: 0
+  m_Name: areyoubignote01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1607936538
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607936537}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1661457205}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1607936539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607936537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d66bf945495a24147a195c6fe32d0cad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Anim: {fileID: 1992931205}
+  PerfAnim: S_AreYou_HitBigNote01
+  ClipName: areyoubignote01
+  AnimTime: 0.57
+  StartTime: 9.37
+  EndTime: 16.3
+  CameraName01: S_AreYou_HitBigNote01_c01
+  CameraName02: S_AreYou_HitBigNote01_c02
+  ik_targetl: slave
+  ik_targetr: slave
+  strum: false
+  fret: false
+  chord: false
+  Band1: vocalist
+  Band2: '"TRG_Geo_Camera_Performance_SING01"'
+  BandLocation: '"vocalist_start"'
+  target: {fileID: 273162973}
+  Test: 0
+  audioSource: {fileID: 2016775182}
+  delay: 260.247
 --- !u!1 &1618146086
 GameObject:
   m_ObjectHideFlags: 0
@@ -2791,6 +3479,207 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1618146086}
   m_CullTransparentMesh: 1
+--- !u!1 &1650997845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1650997846}
+  - component: {fileID: 1650997848}
+  - component: {fileID: 1650997847}
+  m_Layer: 5
+  m_Name: Text (Timer)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1650997846
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650997845}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1841612779}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.3737037, y: 0.92600006}
+  m_AnchorMax: {x: 0.555, y: 1}
+  m_AnchoredPosition: {x: -0.79800415, y: -1}
+  m_SizeDelta: {x: 4.399994, y: 2.4443016}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1650997847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650997845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0.09759998, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 0.0
+--- !u!222 &1650997848
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650997845}
+  m_CullTransparentMesh: 1
+--- !u!1 &1661457204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1661457205}
+  - component: {fileID: 1661457206}
+  m_Layer: 0
+  m_Name: BandClips
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1661457205
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661457204}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1293008912}
+  - {fileID: 1607936538}
+  - {fileID: 437235679}
+  - {fileID: 1834500481}
+  - {fileID: 1783395634}
+  - {fileID: 1236401265}
+  - {fileID: 1097646754}
+  - {fileID: 1184039992}
+  - {fileID: 1481619301}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1661457206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661457204}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 390f785d5e10d8845bfa2c3c6283dfb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Band: {fileID: 832950981}
+  Exporter: {fileID: 787003696}
+  SingAnimText: {fileID: 1960907624}
+  audioSource: {fileID: 2016775182}
+  timeText: {fileID: 1650997847}
+--- !u!1 &1783395633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1783395634}
+  - component: {fileID: 1783395635}
+  m_Layer: 0
+  m_Name: HappyRain02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1783395634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783395633}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1661457205}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1783395635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783395633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d66bf945495a24147a195c6fe32d0cad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Anim: {fileID: 1992931205}
+  PerfAnim: S_HappyWhenItRains_03
+  ClipName: HappyRain02
+  AnimTime: 0.3
+  StartTime: 11
+  EndTime: 36.2
+  CameraName01: S_HappyWhenItRains_03_c01
+  CameraName02: S_HappyWhenItRains_03_c02
+  ik_targetl: slave
+  ik_targetr: slave
+  strum: false
+  fret: false
+  chord: false
+  Band1: vocalist
+  Band2: '"TRG_Geo_Camera_Performance_SING01"'
+  BandLocation: '"vocalist_start"'
+  target: {fileID: 273162973}
+  Test: 0
+  audioSource: {fileID: 2016775182}
+  delay: 67.098
 --- !u!1 &1786835333
 GameObject:
   m_ObjectHideFlags: 0
@@ -3000,6 +3889,9 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 378596259}
+  - {fileID: 2074091942}
+  - {fileID: 273162974}
   - {fileID: 1792639108}
   - {fileID: 1855732368}
   - {fileID: 1992931206}
@@ -3040,6 +3932,70 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1102130661}
   m_LocalEulerAnglesHint: {x: 15, y: -135, z: 0}
+--- !u!1 &1834500480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1834500481}
+  - component: {fileID: 1834500483}
+  m_Layer: 0
+  m_Name: HappyRain01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1834500481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834500480}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1661457205}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1834500483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834500480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d66bf945495a24147a195c6fe32d0cad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Anim: {fileID: 1992931205}
+  PerfAnim: S_HappyWhenItRains_03
+  ClipName: HappyRain01
+  AnimTime: 0.39
+  StartTime: 14.3
+  EndTime: 36.2
+  CameraName01: S_HappyWhenItRains_03_c01
+  CameraName02: S_HappyWhenItRains_03_c02
+  ik_targetl: slave
+  ik_targetr: slave
+  strum: false
+  fret: false
+  chord: false
+  Band1: vocalist
+  Band2: '"TRG_Geo_Camera_Performance_SING01"'
+  BandLocation: '"vocalist_start"'
+  target: {fileID: 273162973}
+  Test: 0
+  audioSource: {fileID: 2016775182}
+  delay: 4.203
 --- !u!1 &1841612775
 GameObject:
   m_ObjectHideFlags: 0
@@ -3116,7 +4072,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
+  m_VertexColorAlwaysGammaSpace: 1
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -3135,9 +4091,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1618146087}
+  - {fileID: 1650997846}
   - {fileID: 1960907623}
   - {fileID: 474011939}
   - {fileID: 168199697}
+  - {fileID: 574238157}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3970,8 +4928,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: dd511d3d4ac088a4eb2809d2446be89f, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -4208,6 +5166,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2074091941
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2074091942}
+  m_Layer: 0
+  m_Name: GuitPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2074091942
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074091941}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.501, y: 0, z: -0.527}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1800293385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2103511647 stripped
 Transform:
@@ -5651,3 +6640,4 @@ SceneRoots:
   - {fileID: 2016775183}
   - {fileID: 1841612779}
   - {fileID: 2037622367}
+  - {fileID: 1661457205}

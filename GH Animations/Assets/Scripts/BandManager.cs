@@ -8,6 +8,7 @@ public class BandManager : MonoBehaviour
 	public Animator GuitarAnim;
 	public Animator SingerAnim;
 	
+	
 	// Start is called before the first frame update
     void Start()
     {
